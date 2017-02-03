@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* -------------------- reset -------------------- */
+html, body, div, h1, h2, h3, h4, h5, h6, p, small, ul, ol, li, dl, dt, dd, table {
+margin: 0;
+padding: 0;
+line-height:1.0;
+font-family: "Hiragino Kaku Gothic ProN",
+Meiryo,
+sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul, ol {
+  list-style: none; /* マーカーを消す */
+}
+img {
+  border: none;
+}
+img, input {
+  vertical-align: bottom;
+}
+.bold {
+  font-weight: bold;
+}
+}
+/*IE8用リセット*/
+ article, aside, dialog, figure, footer, header,
+  hgroup, menu, nav, section { display: block; }
+
+/* -------------------- body -------------------- */
+
+body {
+color: #333;
+font-size: 16px;
+}
+html {
+  -webkit-text-size-adjust:100%;/*  文字サイズ自動調整機能オフ*/
+}
+/* -------------------- layout -------------------- */
+body {
+  background: #998675;
+  overflow-y:scroll;
+}
+*html body {overflow-y: auto;} /* IE6 */
+*:first-child+html body {overflow-y: auto;} /* IE7 */
+
+header {
+  height: 115px;
+}
+#container {
+  width: 1020px;
+  margin: 0 auto;
+  box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
+  -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
+  -moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
+}
+#footer {
+  overflow: hidden;
+  width: 930px;
+/*  height: 250px;*/
+  background: #361700 url(../img/footer_back.png) left bottom no-repeat;
+  padding: 20px 45px;
+}
+
+/* -------------------- main layout -------------------- */
+main {
+  background: #FFF;
+  overflow: hidden;
+  display: block;
+}
+
+/* -------------------- footer layout -------------------- */
+ul.footerNav{
+  float: left;
+  margin-right: 1em;
+}
+/*
+#footer dl {
+  float: left;
+  overflow: hidden;
+  margin: 0 20px 10px 0;
+}
+#footer dt {
+  margin-bottom: 0.5em;
+}
+*/
+#footer li {
+  color:#8c6239;
+  font-size: 12px;
+  line-height: 1.5;
+  float: left;
+  padding: 0 1em;
+}
+#footer li a, #footer dt a #footer dt {
+  color:#8c6239;
+}
+#footer a:hover {
+  text-decoration: underline;
+}
+dl.footerNav a, dl.footerNav dt{
+  color:#8c6239;
+  font-size: 13px;
+}
+
+p.more {
+  text-align: right;
+}
+/* -------------------- TOPに戻るボタン -------------------- */
+a#bottom {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 9999;
+  width: 60px;
+  height: 60px;
+  display: block;
+  background:url(../img/to-top.png);
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0.3;
+}
+a#bottom:hover {
+  opacity: 0.8;
+}

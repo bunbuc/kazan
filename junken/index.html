@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>日大／火山・岩石学研究室／巡検ページ</title>
+<!--<link rel="stylesheet" href="../css/top.css">-->
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/common2.css">
+<link rel="stylesheet" href="../css/junken.css">
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="GoogleImgSearch.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(function(){
+	var topBtn = $('#bottom');    
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+	$('a[href^=#]').click(function(){
+		var speed = 500;
+		var href= $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top;
+		$("html, body").animate({scrollTop:position}, speed, "swing");
+		return false;
+	});
+});
+</script>
+<meta name="viewport" content="width=device-width">
+</head>
+<body id="top">
+<div id="container">
+<header>
+<p class="logo"><a href="../index.html"><img src="../img/logo.png" alt=""></a></p><p><img src="../img/header_img.png" alt=""></p>
+</header>
+<nav>
+<ul class="main">
+<li class="volcano"><a href="../volcano/index.html"></a></li>
+<li class="labo"><a href="../labo/index.html"></a></li>
+<li class="this"><a href="index.html"></a></li>
+<li class="kiyou"><a href="../kiyou/index.html"></a></li>
+<li class="student"><a href="../student/index.html"></a></li>
+<li class="onsen"><a href="../onsen/index.html"></a></li>
+</ul>
+</nav>
+<!-- ///////////////   ↑全ページ共通部分↑   /////////////// -->
+<main>
+<div id="junkenTop">
+<p class="junSetu">当研究室では、実際にフィールドに出かけて本物に触れる野外実習（巡検）を実施しています。<br>火山地形をスケッチしたり、噴出物を観察した結果を発表してもらい、参加者全員でフィールドから読み取れることを考えていきます。ここでは、こうした“アクティブ・ラーニング”の現場の様子を、過去に行われた実習の写真を例に紹介します。</p>
+<div class="mokuji1">
+<p class="junkencap">●&nbsp;国内<br>これまで以下のような火山や地域で野外実習を実施してきました：磐梯、那須、日光白根、榛名、草津白根、浅間、八ヶ岳、富士、箱根、東伊豆、伊豆大島、新潟焼山、阿蘇、霧島、桜島、丹沢。ここでは主なものを紹介します。</p>
+</div><!--/.mokuji-->
+<div class="mokuji2">
+<ul class="junkenList">
+<li>●&nbsp;<a href="http://www.chs.nihon-u.ac.jp/geo_dpt/html/event/practice/" target="blank">海外</a></li>
+<li class="listKaigai">当研究室では、文理学部の総合教育科目「海外実地研究」でハワイ島での野外実習を継続的に行っています。<br><small>※別ページが開きます</small></li>
+</ul>
+</div><!--/.mokuji-->
+<ul class="kokunaiList">
+<li><a href="#asama2008">浅間山</a></li>
+<li><a href="#fuji2001">富士山</a></li>
+<li><a href="#hakone2010">箱根</a></li>
+<li><a href="#yatu2012">八ヶ岳</a></li>
+<li><a href="#nasu2005">那須</a></li>
+<li><a href="#sakura2002">桜島火山</a></li>
+<li><a href="#oshima2001">伊豆大島</a></li>
+
+<!--<li>草津白根崋山</li>
+<li>霧島</li>
+<li>丹沢</li>-->
+</ul>
+</div><!--/#junkenTop-->
+
+<!-- ///////////////   巡検写真-浅間火山2008   /////////////// -->
+
+<div class="photoLibrary">
+<h2 id="asama2008" class="photoTitle">浅間火山巡検</h2>
+  <ul class="listCover">
+  <li class="listItem">
+  <img src="img/08asama_01.JPG" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/08asama_01.JPG" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">浅間火山巡検（1）</h3><p>火山地形のスケッチ風景。東北東約４㎞の地点から山頂部～山腹斜面の地形の特徴をスケッチした後、発表をします。じっくり見て考えるため、写真撮影だけでは気付かない点も見えてきて、貴重な時間といえます。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/08asama_03.JPG" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/08asama_03.JPG" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">浅間火山巡検（2）</h3><p>降下火砕堆積物の露頭風景。この写真の場合は、火口の東方の山腹で、18世紀と12世紀の大規模噴火で降り積もった軽石を中心とした堆積物を観察しています。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/asama5.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/asama5.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">浅間火山巡検（3）</h3><p>写真②の露頭から４種類の粒子を取り出して分類をする実習の様子。大半は軽石ですが、それ以外の粒子も含めて、それぞれの成因を考えます。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+--><li class="listItem">
+  <img src="img/asama4.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/asama4.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">浅間火山巡検（4）</h3><p>火砕流堆積物の観察風景。木もまばらにしかない山腹斜面で、18世紀の大規模噴火の痕跡をじっくりと観察し、どのように火砕流が流下したのかといったことを考察します。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/08asama_08.JPG" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/08asama_08.JPG" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">浅間火山巡検（5）</h3><p>鎌原かんのん堂と嬬恋資料館の見学風景。18世紀の天明噴火で被災した鎌原村を訪れて、当時何があったのかを学びます。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li>
+</ul><!--/.listCover-->
+</div><!--/.PhotoLibrary-->
+
+
+
+<!-- ///////////////   巡検写真-富士山   /////////////// -->
+<div class="photoLibrary">	
+<h2 id="fuji2001" class="photoTitle">富士山巡検</h2>
+  <ul class="listCover">
+  <li class="listItem">
+  <img src="img/fuji1.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/fuji1.jpg" alt=""></div>
+  <div class="secRight asama"><h3 class="smallTitle">富士山巡検（1）</h3><p>北麓の紅葉台から見た富士火山。手前に拡がる青木ヶ原樹海や、中腹の側火山も含め、様々な火山地形を観察できるポイントです。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/fuji2.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/fuji2.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">富士山巡検（2）</h3><p>森林浴にもよい青木ヶ原樹海の様子。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/fuji3.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/fuji3.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">富士山巡検（3）</h3><p>青木ヶ原樹海の足元には、貞観の噴火で流出した青木ヶ原溶岩があり、その表面形態と場所による変化を観察します。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/fuji4.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/fuji4.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">富士山巡検（4）</h3><p>青木ヶ原樹海にある、富士風穴。青木ヶ原溶岩の断面が観察できます。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/fuji5.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/fuji5.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">富士山巡検（5）</h3><p>本栖湖畔で、青木ヶ原溶岩の表面形態を観察し、溶岩が湖に流入した際の様子を議論します。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li>
+</ul><!--/.listCover-->
+</div>
+
+
+
+<!-- ///////////////   巡検写真-箱根2010   /////////////// -->
+
+<div class="photoLibrary">
+<h2 id="hakone2010" class="photoTitle">箱根巡検</h2>
+  <ul class="listCover">
+  <li class="listItem">
+  <img src="img/10hakone_01.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/10hakone_01.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">箱根巡検（1）</h3><p>金時山登山スタートです。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/10hakone_02.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/10hakone_02.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">箱根巡検（2）</h3><p>登山道の途中の全面露頭で何が見えているか観察し、話し合います。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/10hakone_03.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/10hakone_03.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">箱根巡検（3）</h3><p>登山道の途中にあった大きな岩塊。この岩塊がどのようにしてこの場所にもたらされたかも論点になります。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/10hakone_04.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/10hakone_04.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">箱根巡検（4）</h3><p>金時山山頂。箱根火山の中央火口丘やカルデラ地形など、地形の観察に適した場所です。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight--><h1></h1>
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/10hakone_05.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/10hakone_05.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">箱根巡検（5）</h3><p>長尾峠か大湧谷の写真が入ります。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li>
+</ul><!--/.listCover-->
+</div><!--/.PhotoLibrary-->
+
+
+
+<!-- ///////////////   巡検写真-八ヶ岳2012   /////////////// -->
+
+<div class="photoLibrary">
+<h2 id="yatu2012" class="photoTitle">八ヶ岳巡検</h2>
+  <ul class="listCover">
+  <li class="listItem">
+  <img src="img/12yatugatake_01.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/12yatugatake_01.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">八ヶ岳巡検（1）</h3><p>八ヶ岳に南西からアプローチ。天気もよく巡検日和です！</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/12yatugatake_05.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/12yatugatake_05.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">八ヶ岳巡検（2）</h3><p>麦草峠で黒曜石の観察風景。旧石器人も使用した麦草峠の黒曜石です。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/12yatugatake_03.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/12yatugatake_03.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">八ヶ岳巡検（3）</h3><p>北八ヶ岳の北端、標高2000mを越える大河原峠付近の景色。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/12yatugatake_04.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/12yatugatake_02.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">八ヶ岳巡検（4）</h3><p>大河原峠から双子山へ向かう登山道沿いに露出する火砕岩の岩塊の構成物を観察します。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/12yatugatake_05.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/12yatugatake_04.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">八ヶ岳巡検（5）</h3><p>大河原峠近くの道沿いに見られる岩脈。このルートでは岩脈がたくさん見られ、火山体の内部の様子見ることができました。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li>
+</ul><!--/.listCover-->
+</div><!--/.PhotoLibrary-->
+
+
+
+<!-- ///////////////   巡検写真-那須   /////////////// -->
+<div class="photoLibrary">
+<h2 id="nasu2005" class="photoTitle">那須巡検</h2>
+  <ul class="listCover">
+  <li class="listItem">
+  <img src="img/Nasu6.JPG" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/Nasu6.JPG" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">那須巡検（1）</h3><p>茶臼岳の登山道から見上げる山頂部。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/Nasu7.JPG" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/Nasu7.JPG" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">那須巡検（2）</h3><p>茶臼岳の溶岩流の断面を観察します。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/Nasu2.JPG" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/Nasu2.JPG" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">那須巡検（3）</h3><p>那須ロープウエー山頂駅より、茶臼岳の南東山腹を登ります。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/Nasu4.JPG" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/Nasu4.JPG" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">那須巡検（4）</h3><p>写真③の登山道途中の露頭で、降下火砕堆積物を観察します。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/Nasu8.JPG" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/Nasu8.JPG" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">那須巡検（5）</h3><p>那須湯本温泉の殺生石付近で硫気地帯を見学。近くには本格的な硫化水素泉の温泉を体験できる共同湯の「鹿の湯」と登山の拠点に利用する民宿街があります．</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li>
+</ul><!--/.listCover-->
+</div>
+
+
+
+<!-- ///////////////   巡検写真-桜島   /////////////// -->
+<div class="photoLibrary">	
+<h2 id="sakura2002" class="photoTitle">桜島巡検</h2>
+  <ul class="listCover">
+  <li class="listItem">
+  <img src="img/02sakura_01.png" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/02sakura_01.png" alt=""></div>
+  <div class="secRight asama"><h3 class="smallTitle">桜島巡検（1）</h3><p>桜島昭和火口の噴火。このような生の噴火を目の当たりにする貴重な機会です。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/02sakura_02.png" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/02sakura_02.png" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">桜島巡検（2）</h3><p>大正溶岩の長淵像の写真。　1914年の大正噴火で噴出した溶岩原にて。ここは100年少し前に溶岩が海を埋め立ててできた新しい土地です。長淵剛のコンサートを記念する像があります。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/02sakura_04.png" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/02sakura_04.png" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">桜島巡検（3）</h3><p>研究機関で掘削された溶岩のボーリングコアの試料を観察し，特徴を記載します．</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/02sakura_03.png" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/02sakura_03.png" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">桜島巡検（4）</h3><p>土石流の際に運ばれてきた巨大な岩塊がこの橋にぶつかりました．橋の上から土石流の威力を実感しました。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/02sakura_05.png" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/02sakura_05.png" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">桜島巡検（5）</h3><p>垂水の海岸で、約3万年前の大規模噴火による火砕流堆積物を観察します。シラスとも呼ばれる流紋岩質の白っぽい火山灰を主とする堆積物で、噴火の威力を実感できます。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li>
+</ul><!--/.listCover-->
+</div>
+
+
+
+<!-- ///////////////   巡検写真-伊豆大島   /////////////// -->
+<div class="photoLibrary">
+<h2 id="oshima2001" class="photoTitle">伊豆大島巡検</h2>
+  <ul class="listCover">
+  <li class="listItem">
+  <img src="img/oshima2.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/oshima2.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">伊豆大島巡検（1）</h3><p>火山博物館の見学。伊豆大島火山のおいたちを勉強します。/p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/oshima3.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/oshima3.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">伊豆大島巡検（2）</h3><p>バームクーヘンのような地層大切断面。一枚一枚の地層は噴火の際に噴煙から降ってきた火山灰やスコリア*でできています。過去に噴火が何度もあったことを物語っています。<br>一見すると地層のしゅう曲のように見えますが、尾根と谷が繰り返す火山体の山ひだを、各層が同様の厚さで覆ったものです。<br>*スコリア：マグマの破片が冷え固まったもので、黒く多孔質なもの。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/oshima1.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/oshima1.jpg" alt=""></div>
+  <div class="secRight asama"><h3 class="smallTitle">伊豆大島巡検（3）</h3><p>御神火茶屋から見たカルデラと三原山です。三原山の斜面には1986年に流下した溶岩が見えます。</p>
+<!--  <div class="view">VIEW</div>-->
+  </div><!--/.secfRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/oshima4.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/oshima4.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">伊豆大島巡検（4）</h3><p>1986年の噴火の時に、元町の近くまで流れてきた溶岩。表面を歩いて、溶岩の表面形態の特徴を調べます。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li><!--
+  --><li class="listItem">
+  <img src="img/oshima5.jpg" alt="">
+  <div class="selfRep">
+  <div class="selfRepInner">
+  <div class="secLeft"><img src="img/oshima5.jpg" alt=""></div>
+  <div class="secRight"><h3 class="smallTitle">伊豆大島巡検（5）</h3><p>1986年噴火のLC溶岩の断面。</p>
+  </div><!--/.secRight-->
+  </div><!--/.selfRepInner-->
+  </div><!--/.selfRep-->
+  </li>
+</ul><!--/.listCover-->
+</div><!--/.PhotoLibrary-->
+
+
+
+
+
+
+</main>
+
+<!-- ///////////////   ↓全ページ共通部分↓   /////////////// -->
+
+<div id="footer">
+      <ul class="footerNav">
+        <li class="bold">CONTENTS</li>
+        <li><a href="../volcano/index.html">火山いろいろ</a></li>
+        <li><a href="../labo/index.html">研究室あれこれ</a></li>
+        <li><a href="../junken/index.html">巡検（国内・海外）</a></li>
+        <li><a href="../student/index.html">高校生の皆様</a></li>
+        <li><a href="../kiyou/index.html">紀要</a></li>
+        <li><a href="../onsen/index.html">火山の恵み・温泉のこと</a></li>
+      </ul>
+</div><!--/#footer-->
+<p><a id="bottom" href="#top">TOPに戻る</a></p>
+</div><!--/#container-->
+</body>
+</html>

@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* -------------------- reset -------------------- */
+p.logo{
+  float: left;
+}
+/* -------------------- layout -------------------- */
+/*#contents {
+  height: 200px;
+  background: #ccbaa9;
+  overflow: hidden;
+}*/
+main {
+  background: #FFF;
+  color:#542c0b;
+}
+#wrapper {
+  padding: 20px;
+  margin: 20px;
+  border: 1px #542c0b solid;
+  border-radius: 20px;
+}
+li.this {
+  background: url(../img/nav_btn2.png) -510px bottom;
+}
+
+/* -------------------- 年別リスト -------------------- */
+ul.yearList {
+  text-align: center;
+  margin-bottom: 1.0em;
+}
+ul.yearList li {
+  display: inline-block;
+  padding: 0 0.5em;
+  border-right: 1px #542c0b solid;
+  line-height: 1.5;
+  font-size: 15px;
+}
+ul.yearList li:last-child {
+  border-right: none;
+}
+ul.yearList li a {
+  color: #C33;
+  text-decoration: underline;
+}
+ul.yearList li a:hover {
+  text-decoration: none;
+}
+/* -------------------- 論文リスト -------------------- */
+dl.kiyouList {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px #998675 dotted;
+}
+dl.kiyouList:last-child {
+  border-bottom: none;
+}
+dl.kiyouList dt {
+  font-weight: bold;
+  float: left;
+  line-height: 1.5;
+}
+dl.kiyouList dd {
+  font-size: 14px;
+  margin-left: 15em;
+}
+dl.kiyouList ul {
+  list-style: square;
+}
+dl.kiyouList li {
+  margin: 0 0 0.5em 1em;
+  line-height: 1.5;
+
+}
+.pdf {
+  color: #C33;
+  padding: 0 0.5em;
+  margin-left:0.5em;
+  text-decoration: underline;
+}
+/* -------------------- そのほか -------------------- */
+h2 {
+  text-align: center;
+  line-height: 2.0;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.5em;
+}
+.bold {
+  font-weight: bold;
+  margin-right: 1.0em;
+}
+/* ===========================================
+	SizeAdjustment
+=========================================== */
+@media screen and (max-width: 959px) {
+main {
+  max-width: 100%;
+}
+}
+@media screen and (max-width: 640px) {
+main {
+  max-width: 100%;
+}

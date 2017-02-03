@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* -------------------- #sorry layout -------------------- */
+
+/*#sorry {
+  margin:300px 0 20px;
+  text-align: center;
+  color: #8c6239;
+  font-size: 15px;
+}
+#sorry p.fukusuke a{
+  display: block;
+  width: 140px;
+  height: 160px;
+  background: url(../img/fukusuke00.png) no-repeat center;
+  margin: auto;
+}
+#sorry p.fukusuke a:hover{
+  width: 140px;
+  height: 160px;
+  background: url(../img/fukusuke01.png) no-repeat center;
+  margin: auto;
+}*/
+/* -------------------- nav layout -------------------- */
+nav {
+  overflow: hidden;
+}
+ul.main li {
+  float: left;
+}
+ul.main li a {
+  display: block;
+  width: 170px;
+  height: 50px;
+}
+li.volcano {
+  background: url(../img/nav_btn2.png) left -50px;
+}
+li.labo {
+  background: url(../img/nav_btn2.png) -170px -50px;
+}
+li.junken {
+  background: url(../img/nav_btn2.png) -340px -50px;
+}
+li.kiyou {
+  background: url(../img/nav_btn2.png) -510px -50px;
+}
+li.student {
+  background: url(../img/nav_btn2.png) -680px -50px;
+}
+li.onsen {
+  background: url(../img/nav_btn2.png) right -50px;
+}
+li.volcano a:hover{
+  background: url(../img/nav_btn2.png) left top;
+}
+li.labo a:hover{
+  background: url(../img/nav_btn2.png) -170px top;
+}
+li.junken a:hover{
+  background: url(../img/nav_btn2.png) -340px top;
+}
+li.kiyou a:hover{
+  background: url(../img/nav_btn2.png) -510px top;
+}
+li.student a:hover{
+  background: url(../img/nav_btn2.png) -680px top;
+}
+li.onsen a:hover{
+  background: url(../img/nav_btn2.png) right top;
+}
+
+/* --------------------.backenext layout -------------------- */
+#backnext {
+  background: #8C6239;
+}
+#backnext ul {
+  text-align: center;
+  line-height: 2.5;
+}
+#backnext li {
+  display: inline;
+  color: #361700;
+}
+#backnext li.navicenter {
+  padding: 0 12em;
+}
+
+#backnext a:hover, #backnext a {
+  color:#361700;
+  text-decoration: underline;
+}

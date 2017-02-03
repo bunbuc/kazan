@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* -------------------- reset -------------------- */
+p.logo{
+  float: left;
+}
+/* -------------------- layout -------------------- */
+#contents {
+  background: #ccbaa9;
+}
+main {
+  color:#542c0b;
+}
+#takahashiNav {
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 1.5em;
+  border-bottom: 1px #542c0b solid;
+}
+ul.ronbunList {
+  list-style: decimal;
+  margin-left: 1.0em;
+}
+ul.ronbunList li {
+  line-height: 1.4;
+  font-size: 14px;
+  margin-bottom: 1.0em;
+}
+ul.takahashiList {
+  overflow: hidden;
+}
+ul.takahashiList li {
+  display: block;
+  float: left;
+  line-height: 24px;
+  padding: 0 0.8em;
+/*  border-right: 1px #542c0b solid;*/
+}
+ul.takahashiList a {
+  color: #542c0b;
+  text-decoration: underline;
+}
+ul.takahashiList a:hover {
+  text-decoration: none;
+}
+p.kousinDate {
+  text-align: right;
+  margin-bottom:0.8em;
+  font-size: 14px;
+}
+#wrapperPlus {
+  background: url(../takahashi/img/labo_backimg_s.png) no-repeat center top;
+  height: 70px;
+}
+#wrapper {
+/*  margin: 50px;*/
+  padding: 0 50px 20px;
+/*  border: #744818 solid 1px;
+  border-radius: 20px;*/
+  background: url(../labo/img/labo_repimg.png);
+}
+li.this {
+  background: url(../img/nav_btn2.png) -170px bottom;
+}
+
+/* -------------------- takahashiNav -------------------- */
+h2, p.mokuji {
+  float: left;
+}
+h2 {
+  padding-right: 1.0em;
+}
+h3 {
+  line-height: 2.0;
+  border-bottom: 1px #542c0b dotted;
+  margin-bottom: 20px;
+  clear: left;
+  padding-top: 1.0em;
+}
+p.kenkyusi {
+  line-height: 1.5;
+  font-size: 15px;
+}
+/*ul.takahashiList {
+  overflow: hidden;
+  width: 510px;
+  height: 100px;
+}*/
+/*ul.takahashiList li a {
+  display: block;
+  width: 170px;
+  height: 100px;
+  background: url(../takahashi/img/takahashi_btn.png) no-repeat center bottom;
+}
+ul.takahashiList li#chosaku a {
+  background: url(../takahashi/img/takahashi_btn.png) no-repeat right bottom;
+}
+ul.takahashiList li#kenkyusi a {
+  background: url(../takahashi/img/takahashi_btn.png) no-repeat left bottom;
+}
+
+ul.takahashiList li#ronbun a:hover {
+  background: url(../takahashi/img/takahashi_btn.png) no-repeat center top;
+}
+ul.takahashiList li#chosaku a:hover {
+  background: url(../takahashi/img/takahashi_btn.png) no-repeat right top;
+}
+ul.takahashiList li#kenkyusi a:hover {
+  background: url(../takahashi/img/takahashi_btn.png) no-repeat left top;
+}*/
+
+dl.book img {
+  box-shadow: 4px 4px 3px rgba(0,0,0,0.3);
+}
+dl.book {
+  overflow: hidden;
+  float: left;
+  margin-bottom: 15px;
+  width: 184px;
+  text-align: center;
+}
+dl.book dt {
+  margin: 0 10px;
+  margin-bottom: 0.5em;
+/*  box-shadow: 4px 4px 3px rgba(0,0,0,0.3);*/
+}
+dl.book dd {
+  line-height: 1.3;
+  font-size: 13px;
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}

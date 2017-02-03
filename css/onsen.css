@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* -------------------- reset -------------------- */
+p.logo{
+  float: left;
+}
+/* -------------------- layout -------------------- */
+#contents {
+  height: 200px;
+  background: #ccbaa9;
+  overflow: hidden;
+}
+#container {
+  background: #FFF;
+}
+main {
+  overflow: hidden;
+  background: #ffe4b2 url(../onsen/img/onsenTitle.png) no-repeat center 10px;
+  color:#542c0b;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+li.this {
+  background: url(../img/nav_btn2.png) right bottom;
+}
+/*.child {
+    display: none;
+}*/
+
+/* -------------------- 温泉のボタンlayout -------------------- */
+#onsenBtn {
+  padding: 160px 0 0 77px;
+}
+ul.onsenBtn01 {
+  overflow: hidden;
+}
+ul.onsenBtn01 li {
+  float:left;
+}
+ul.onsenBtn01 li img {
+  vertical-align: bottom;
+}
+li.imgbtm01 {
+  padding-top: 20px;
+}
+li.imgbtm02 {
+  padding-top: 80px;
+}
+/*ul.onsenBtn02 {
+  clear: left;
+}
+ul.onsenBtn02 {
+  padding-left: 196px;
+}*/
+/*li.kosei {
+  padding-left: 420px;
+}*/
+p.bunken {
+  text-align: right;
+  display: block;
+}
+p.hitokoto {
+  text-align: center;
+  font-size: 0.8em;
+  clear: left;
+  margin: -1em 0 20px;
+}
+/* -------------------- onsenList -------------------- */
+#onsenAll {
+  padding: 0 20px 20px;
+  overflow: hidden;
+}
+#onsenAll li.kobetu {
+  margin-bottom: 10px;
+}
+#onsenAll li.kobetu img {
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#onsenLeft{
+  width: 460px;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+}
+#onsenKosei {
+  width: 460px;
+  overflow:hidden;
+  margin-bottom: 20px;
+}
+#onsenHitou {
+  width: 460px;
+  overflow:hidden;
+  margin-bottom: 20px;
+}
+#onsenHitou a.toggle {
+  background: #981B58;
+  line-height: 3.0;
+  color: #FFF;
+  display: block;
+  text-align: center;
+}
+p.onsenTitle {
+  margin-bottom: 10px;
+}
+#onsenLeft a.toggle {
+  background: #5f3712;
+  line-height: 3.0;
+  color: #FFF;
+  display: block;
+  text-align: center;
+}
+#onsenKosei a.toggle {
+  background: #f7931e;
+  line-height: 3.0;
+  color: #FFF;
+  display: block;
+  text-align: center;
+}
+ul.inner {
+  padding: 3px 8px 8px;
+  background: #FFF;
+}
+li.onsenmei {
+  line-height:2.0;
+  font-weight: bold;
+  border-bottom: #5f3712 dashed 1px;
+  margin-bottom: 5px;
+  padding: 0 0.5em;
+}
+li.tokuchou {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0 0.5em;
+  line-height: 1.3;
+  color: #825836;
+}
+li.kaisetu {
+  line-height: 1.4;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+p.mapS {
+  float: right;
+  margin: 0 0 10px;
+}
+p.mapGoogle {
+  line-height: 2.0;
+  text-align: right;
+}
+#onsenAll p.onsenphoto {
+/*  margin-bottom: 10px;*/
+}
+#bunken {
+  clear: both;
+}
+#bunken ul#bunkenList li{
+  line-height: 1.5;
+}

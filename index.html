@@ -1,10 +1,151 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ja">
+
 <head>
-<meta charset="UTF-8">
-<title>無題ドキュメント</title>
+  <meta charset="UTF-8">
+  <title>日本大学文理学部&nbsp;地球科学科</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/top.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!--<script>
+$(function(){
+    var maxNum = 7, // 最大枚数
+    rdm = Math.floor(Math.random()*(maxNum))+1;
+    $('#randomShow').attr('src', 'img/photo' + rdm + '.png');
+});
+</script>-->
+  <script>
+    $(function () {
+      $("#randomShow").css("display", "none");
+      $("#randomShow").css("border-top", "1px #422 solid");
+      $("#randomShow").css("border-bottom", "1px #422 solid");
+    });
+    $(function () {
+      var maxNum = 7, // 最大枚数
+        rdm = Math.floor(Math.random() * (maxNum)) + 1;
+      $('#randomShow').attr('src', 'img/photo' + rdm + '.png');
+    });
+    $(function () {
+      $('#randomShow').fadeIn(2500);
+    });
+  </script>
+  <meta name="viewport" content="width=device-width">
 </head>
 
-<body>tttttttttttt
+<body>
+  <div id="container">
+    <header>
+      <p><img src="img/NUbasiclogomark_s.png" alt=""><span class="eng">Department of Earth and Environmental Sciences, College of Humanities and Sciences, Nihon University</span></p>
+    </header>
+    <!--/.header-->
+    <div id="top_img">
+      <img src="img/blank.png" alt="" id="randomShow">
+    </div>
+    <!--/#top_img-->
+
+    <main>
+      <h1><span class="logoSmall">日本大学&nbsp;文理学部&nbsp;地球科学科<br>地震火山教育研究部門&nbsp;火山・岩石学領域のページです</span><br><a href="index.html"><img src="img/logo_labo.png" alt=""></a></h1>
+      <nav id="glovalNav">
+        <ul>
+          <li class="topSide">
+            <dl><dt><a href="labo/index.html"><img src="img/btn_labo.png" alt="研究室あれこれ"></a></dt>
+              <dd>先生のことや授業のこと
+                <br>気になるあの部屋を紹介します</dd>
+            </dl>
+          </li>
+          <li class="topCenter">
+            <dl><dt><a href="volcano/index.html"><img src="img/btn_volcano.png" alt="火山いろいろ"></a></dt>
+              <dd>浅間・桜島・富士・箱根など
+                <br>色々な山のことを解説しています</dd>
+            </dl>
+          </li>
+          <li class="topSide">
+            <dl><dt><a href="kiyou/index.html"><img src="img/btn_Bulletin.png" alt="紀要などなど"></a></dt>
+              <dd>紀要タイトル一覧
+                <br>2002-2016</dd>
+            </dl>
+          </li>
+          <li>
+            <dl><dt><a href="junken/index.html"><img src="img/btn_excursion.png" alt="巡検-国内・海外"></a></dt>
+              <dd>国内も海外も！フィールドは教室の中だけではありません！</dd>
+            </dl>
+          </li>
+          <li class="center">
+            <dl><dt><a href="student/index.html"><img src="img/btn_student.png" alt="高校生のみなさま"></a></dt>
+              <dd>地学が好き！火山が好き！なら
+                <br>ぜひ私たちの研究室へ！</dd>
+            </dl>
+          </li>
+          <li>
+            <dl><dt><a href="onsen/index.html"><img src="img/btn_spa.png" alt="火山の恵み-温泉"></a></dt>
+              <dd>日本列島には世界の活火山の
+                <br>10%があると言われています</dd>
+            </dl>
+          </li>
+        </ul>
+      </nav>
+      <div id="board">
+        <div class="item new">
+          <table>
+            <tr>
+              <th>NEW</th>
+              <td>2016.12.04</td>
+              <td><a href="volcano/index.html">火山ページ</a>「執筆中」に変更しました</td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>2016.11.22</td>
+              <td>★温泉写真は違ってるところもあると思います。次直します。</td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>2016.11.21</td>
+              <td>全ページ　footer目次修正しました</td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>2016.11.21</td>
+              <td><a href="kiyou/index.html">紀要ページ</a>　2016年度紀要追加しました。</td>
+            </tr>
+            <th></th>
+            <td>2016.11.21</td>
+            <td><a href="student/index.html">高校生ページ</a>　解説図を削除しました</td>
+            </tr>
+          </table>
+        </div>
+        <!--/.new-->
+        <!--<div class="item quiz">
+<p><a href="#"><img src="img/quiz_1.png" alt=""></a></p>
+<p><a href="#"><img src="img/quiz_2.png" alt=""></a></p>
+<p><a href="#"><img src="img/quiz_3.png" alt=""></a></p>
+</div>/.quiz-->
+        <!--<div class="item gallery">
+<p><a href="#"><img src="img/icon_gallery.png" alt=""></a></p>
+</div>/.gallery-->
+      </div>
+      <!--/#board-->
+      <div id="stave"></div>
+      <!--/#stave-->
+    </main>
+    <!-- ///////////////   ↓全ページ共通部分↓   /////////////// -->
+
+    <div id="footer">
+      <ul class="footerNav">
+        <li class="bold">CONTENTS</li>
+        <li><a href="volcano/index.html">火山いろいろ</a></li>
+        <li><a href="labo/index.html">研究室あれこれ</a></li>
+        <li><a href="junken/index.html">巡検（国内・海外）</a></li>
+        <li><a href="student/index.html">高校生の皆様</a></li>
+        <li><a href="kiyou/index.html">紀要</a></li>
+        <li><a href="onsen/index.html">火山の恵み・温泉のこと</a></li>
+      </ul>
+    </div>
+    <!--/#footer-->
+  </div>
+  <!--/#container-->
 </body>
+
 </html>

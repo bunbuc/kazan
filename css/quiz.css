@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* -------------------- reset -------------------- */
+p.logo{
+  float: left;
+  width: 255px;
+}
+/* -------------------- layout -------------------- */
+#contents {
+  width: 256px;
+/*  background: #ccc;*/
+  float: left;
+}
+.wrapper {
+  width:960px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+main {
+  height: 800px;
+}
+
+li.this {
+  background: url(../img/nav_btn2.png) right bottom;
+}
+/* -------------------- contents -------------------- */
+
+
+
+/* -------------------- .right -------------------- */

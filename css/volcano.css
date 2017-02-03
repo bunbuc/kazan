@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* -------------------- reset -------------------- */
+p.logo{
+  float: left;
+  width: 255px;
+}
+/* -------------------- layout -------------------- */
+main {
+  height: 800px;
+  overflow:  hidden;
+}
+#contents {
+  width: 256px;
+/*  background: #ccc;*/
+  float: left;
+}
+.wrapper {
+  width:960px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+main {
+}
+/*.left {
+  width: 270px;
+  height: 500px;
+  background: #ccc;
+  float: left;
+}*/
+.right {
+  width: 680px;
+/*  background: #ccc;*/
+  float: right;
+}
+li.this {
+  background: url(../img/nav_btn2.png) left bottom;
+}
+.asama00 {
+  margin-bottom: 70px;
+}
+/* -------------------- takahashineko -------------------- */
+#mate p{
+  text-align: center;
+  margin-top: 300px;
+  color: #604c3f;
+}
+
+/* -------------------- contents -------------------- */
+
+#contents ul.kazanList li {
+  box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 1px 1px;
+  -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 1px 1px;
+  -moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 1px 1px;
+  margin: 0 3px 10px;
+}
+ol.asamaContents li{
+  font-size: 15px;
+  line-height: 1.8;
+}
+li.titleOnly a {
+/*  display: block;
+  width: 240px;
+  line-height: 2.0;
+  background: #a48566;
+  padding: 5px;
+  font-size: 16px;
+  color: #603813;
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+  opacity: 0.8;*/
+}
+li.titleOnly a:hover {
+  background: #8c653e;
+}
+
+/* -------------------- .right -------------------- */
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 0.25em;
+/*  border-left: #F90 solid 8px;*/
+/*  padding-left: 0.5em;*/
+}
+h2 {
+  font-size: 22px;
+  margin-bottom: 0.25em;
+  padding-top:0.5em;
+}
+h3 {
+  font-size: 18px;
+  margin-bottom: 0.3em;
+  padding-top: 0.5em;
+  line-height: 1.5;
+/*  border-bottom: 1px solid #333;*/
+}
+h3.hajime {
+  font-size: 18px;
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-top: 0.5em;
+}
+h4 {
+  font-size: 18px;
+  color: #633;
+  margin-bottom: 10px;
+  text-align: center;
+}
+dl.junbichu {
+  margin-bottom: 0.8em;
+}
+dl.junbichu dt, dl.junbichu dd {
+  line-height: 1.5;
+}
+p {
+  line-height: 1.5;
+}
+article.setumei {
+  width: 580px;
+  padding: 1em;
+  border: 1px solid #8A5634;
+}
+p.eng, p.writer {
+  line-height: 1.5;
+  color: #666;
+}
+span.shozoku {
+  font-size:0.8em;
+}
+ol.mokuji {
+  list-style: number;
+  margin-left: 2.5em;
+  margin-bottom: 1em;
+}
+ol.mokuji a {
+  color:#333;
+  text-decoration: underline;
+}
+ol.mokuji a:hover {
+  text-decoration: none;
+}
+li {
+  line-height: 1.5;
+}
+.right img {
+  margin-bottom: 20px;
+}
+p.caption {
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.4;
+  padding-left: 3.8em;
+  text-indent: -3.8em;
+  margin-bottom: 10px;
+}
+p.captionL {
+  font-size: 0.9em;
+  line-height: 1.4;
+  padding-left: 3.8em;
+  text-indent: -3.8em;
+  margin-bottom: 30px;
+  padding-right: 2em;
+}
+p.photoCenter {
+  text-align: center;
+}
+p.marginL {
+  padding-left: 3.8em;
+}
+p.tume {
+  margin-bottom:10px;
+}
+.right p.honbun {
+  line-height: 1.5;
+  text-indent: 1em;
+  margin-bottom: 0.8em;
+}
+.honbunRed {
+  color: #C00;
+  font-weight: bold;
+}
+.honbunGreen {
+  color: #396;
+  font-weight: bold;
+}

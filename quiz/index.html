@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>日大／火山・岩石学研究室／クイズページ</title>
+<!--<link rel="stylesheet" href="../css/top.css">-->
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/common2.css">
+<link rel="stylesheet" href="../css/quiz.css">
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+</script>-->
+<meta name="viewport" content="width=device-width">
+<script>
+  <!--//Copyright (C) WEST MiRa http://www.west-mira.jp
+
+  iro=new Array("beginner_fuji","beginner_aso","beginner_izu","beginner_showa","beginner_hakone","beginner_nijima","beginner_zao","beginner_aduma","beginner_daisen","beginner_taru");
+  color_pic=new Array();
+  for(i=0;i<10;i++)
+    {color_pic[i]=new Image();
+     color_pic[i].src=""+iro[i]+".png";}
+  color_pic[10]=new Image();
+  color_pic[10].src="beginner_seikai.png";
+
+  color_name=new Array("富士","阿蘇米塚","伊豆大島の三原山","昭和新山","箱根中央火口丘","新島","蔵王","吾妻小富士","大山","樽前山と風不死山");
+
+    function img_load()
+	{
+	for(i=0; i<color_pic.length; i++)document.images["hidden"].src=color_pic[i].src;
+	document.images["hidden"].src=color_pic[10].src;
+	}
+
+  function hajime()
+    {document.form1.text1.value="";
+     for(i=0;i<10;i++)document.images[i].src=color_pic[i].src;
+     ran=Math.floor(Math.random()*100);
+     while( ran > 9 )ran=Math.floor(Math.random()*100);
+     document.form1.text1.value=color_name[ran]+"はどれ？";}
+
+  function colors(kazu)
+     {if(ran == kazu)
+		{document.form1.text1.value=color_name[ran]+"正解！";
+		 for(i=0; i<10; i++)if(i!=kazu)document.images[i].src=color_pic[10].src;}
+       else alert("……ﾁｶﾞｳ");
+     }
+
+  //-->
+  </script>
+</head>
+<body onLoad="img_load();">
+<div id="container">
+<header>
+<p class="logo"><a href="../index.html"><img src="../img/logo.png" alt=""></a></p><p><img src="../img/header_img.png" alt=""></p>
+</header>
+<nav>
+<ul class="main">
+<li class="volcano"><a href="../volcano/index.html"></a></li>
+<li class="labo"><a href="../labo/index.html"></a></li>
+<li class="junken"><a href="../junken/index.html"></a></li>
+<li class="kiyou"><a href="../kiyou/index.html"></a></li>
+<li class="student"><a href="../student/index.html"></a></li>
+<li class="onsen"><a href="../onsen/index.html"></a></li>
+</ul>
+</nav>
+<!-- ///////////////   ↑全ページ共通部分↑   /////////////// -->
+<main>
+<table align="center" bgcolor="#F2E2CB" cellpadding=7>
+<tr><td align="center">
+<form name="form1">
+<input type=text size=50 name=text1>
+
+<br><br>
+
+<a href="javaScript:colors(0);"><img src="beginner_fuji.png" name="0" border="0"></a>
+<a href="javaScript:colors(1);"><img src="beginner_aso.png" name="1" border="0"></a>
+<a href="javaScript:colors(2);"><img src="beginner_showa.png" name="2" border="0"></a>
+<a href="javaScript:colors(3);"><img src="beginner_hakone.png" name="3" border="0"></a>
+<a href="javaScript:colors(4);"><img src="beginner_hakone.png" name="4" border="0"></a>
+<a href="javaScript:colors(5);"><img src="beginner_nijima.png" name="5" border="0"></a><br>
+<a href="javaScript:colors(6);"><img src="beginner_zao.png" name="6" border="0"></a>
+<a href="javaScript:colors(7);"><img src="beginner_aduma.png" name="7" border="0"></a>
+<a href="javaScript:colors(8);"><img src="beginner_daisen.png" name="8" border="0"></a>
+<a href="javaScript:colors(9);"><img src="beginner_taru.png" name="9" border="0"></a>
+<!-- <a href="javaScript:colors(10);"><img src="yellow.gif" name="10" border="0"></a> -->
+<!-- <a href="javaScript:colors(11);"><img src="kimidori.gif" name="11" border="0"></a> -->
+
+<hr width="55%">
+
+  <input type="button" value="START！" onClick="hajime();">
+  <input type="button" value="TRY AGAIN！" onClick="hajime();">
+<img src="" name="hidden" width="1" height="1" border="0">
+</form>
+</td></tr></table>
+</main>
+
+<!-- ///////////////   ↓全ページ共通部分↓   /////////////// -->
+
+<div id="footer">
+<dl class="footerNav">
+<dt>▼&nbsp;<a href="../volcano/index.html">火山いろいろ</a></dt>
+<dd>
+<ul>
+<li><a href="#">浅間火山</a></li>
+<li><a href="#">箱根火山</a></li>
+<li><a href="#">富士火山のテクトニクス</a></li>
+<li><a href="#">青木ヶ原溶岩</a></li>
+<li><a href="#">プロキシマル火山地質学</a></li>
+<li><a href="#">各火山の全岩化学組成図</a></li>
+<li><a href="#">丹沢トーナル岩</a></li>
+<li><a href="#">東山梨深成複合岩体</a></li>
+<li><a href="#">大崩山火山深成複合岩体</a></li>
+<li><a href="#">破局噴火</a></li>
+<li><a href="#">帯磁率異方性</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl class="footerNav">
+<dt>▼&nbsp;<a href="../labo/index.html">研究室あれこれ</a></dt>
+<dd>
+<ul>
+<li><a href="#">授業のこと</a></li>
+<li><a href="#">研究室の住人たち</a></li>
+<li><a href="#">高橋教授</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl class="footerNav">
+<dt>▼&nbsp;<a href="../kiyou/index.html">紀要など</a></dt>
+<dd>
+<ul>
+<li><a href="#">学会論文</a></li>
+<li><a href="#">テーマ紹介（卒業論文編）</a></li>
+<li><a href="#">テーマ紹介（修士論文編）</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl class="footerNav">
+<dt>▼&nbsp;<a href="../student/index.html">高校生のみなさま</a></dt>
+<dd>
+<ul>
+<li><a href="#">Q & A</a></li>
+<li><a href="#">卒業生の就職先</a></li>
+<li><a href="#">卒業生からメッセージ</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl class="footerNav">
+<dt>▼&nbsp;<a href="../junken/index.html">巡検</a></dt>
+<dd>
+<ul>
+<li><a href="#">海外</a></li>
+<li><a href="#">国内</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl class="footerNav">
+<dt>▼&nbsp;<a href="../onsen/index.html">火山の恵み・温泉</a></dt>
+<dd>
+<ul>
+<li><a href="#">火山学者の温泉つれづれ</a></li>
+<li><a href="#">オススメ温泉ランキング</a></li>
+<li><a href="#">火山と温泉とうまいもの</a></li>
+<!--<li><a href="#">日本全国温泉考</a></li>-->
+</ul>
+</dd>
+</dl>
+
+<dl class="footerNav">
+<dt>▼&nbsp;<a href="index.html">QUIZ</a></dt>
+<dd>
+<ul>
+<li>火山クイズ（<a href="#">初級編</a>&nbsp;/&nbsp;<a href="#">中級編</a>&nbsp;/&nbsp;<a href="#">上級編</a>）</li>
+<li>岩石クイズ（<a href="#">初級編</a>&nbsp;/&nbsp;<a href="#">中級編</a>&nbsp;/&nbsp;<a href="#">上級編</a>）</li>
+<li>温泉クイズ（<a href="#">国内編</a>&nbsp;/&nbsp;<a href="#">海外編</a>）</li>
+</ul>
+</dd>
+</dl>
+</div><!--/#footer-->
+</div><!--/#container-->
+</body>
+</html>

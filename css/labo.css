@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* -------------------- reset -------------------- */
+p.logo{
+  float: left;
+}
+/* -------------------- layout -------------------- */
+#contents {
+  background: #ccbaa9;
+}
+main {
+  color:#542c0b;
+}
+#wrapperPlus {
+  background: url(../labo/img/labo_backimg.png) no-repeat center top;
+  height: 270px;
+}
+#wrapper {
+  padding: 50px 70px 0 70px;
+  overflow: hidden;
+  background: url(../labo/img/labo_repimg.png);
+}
+#aboutLabo {
+  overflow: hidden;
+}
+#laboMember {
+  overflow: hidden;
+  clear: left;
+}
+.box1, .box2 {
+/*  background: #eee;*/
+  width:270px;
+  float: left;
+  margin-bottom: 15px;
+}
+.box2 {
+  color: #744818;
+  margin-right: 34px;
+}
+.about {
+  width: 530px;
+  margin-bottom: 30px;
+  float: right;
+}
+.right {
+  margin: 0;
+}
+.left1 {
+  width: 320px;
+  float: left;
+}
+li.this {
+  background: url(../img/nav_btn2.png) -170px bottom;
+}
+
+/* --------------------labo item -------------------- */
+#wrapper h2 {
+  font-size: 16px;
+/*  line-height: 3.0;*/
+}
+#wrapper h3 {
+  font-size: 16px;
+  border-bottom: 1px #542c0b solid;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+#wrapper h4 {
+  line-height: 2.0;
+}
+
+/*ul.laboMember img {
+  text-align: center;
+}*/
+ul.theme li {
+  list-style-type: disc;
+  margin-left: 2.0em;
+  line-height: 1.6;
+}
+/*#wrapper p, li {
+  line-height:1.4;
+}*/
+ul.gakureki li {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+h2.Bsolid {
+  padding-bottom: 0.5em;
+  line-height: 1.5;
+}
+.Bsolid {
+  border-bottom: 1px #542c0b solid;
+}
+.Bdashed {
+  border-bottom: 1px #542c0b dashed;
+}
+p.Bsolid, p.Bdashed {
+  line-height: 1.7;
+}
+p.Bsolid {
+  margin-bottom: 1.0em;
+}
+ul.gakureki {
+  padding-bottom: 0.3em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px #542c0b dashed;
+}
+.box2 p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+p.catCap {
+  text-align: right;
+}
+p.nameKanji {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px #542c0b solid;
+}
+.nameHira {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding-left:1.0em;
+}
+p.photocenter {
+  text-align: center;
+}
+p.prof1 {
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px #542c0b dashed;
+}
+table, th, td {
+/*  border: 1px #333 solid;
+  border-collapse : collapse; */
+}
+table {
+  margin-bottom: 20px;
+}
+td, th {
+  padding: 3px 15px 3px 0;
+}
+.about p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}

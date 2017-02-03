@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* -------------------- reset -------------------- */
+p.logo{
+  float: left;
+}
+/* -------------------- layout -------------------- */
+main {
+  background: #FFF;
+  color:#42210b;
+}
+#wrapper {
+  background: #ffefae;
+  margin: 30px;
+  border-radius: 30px;
+}
+#mokuji {
+  background: url(../student/img/3students.png) no-repeat left top;
+  padding-top: 50px;
+}
+li.this {
+  background: url(../img/nav_btn2.png) -680px bottom;
+}
+.content {
+  margin-bottom: 30px;
+  padding: 0 50px;
+}
+.soturonList {
+  padding: 0 1.5em;
+}
+/* -------------------- item -------------------- */
+#mainContent p, li, dt, dd {
+  line-height: 1.5;
+  font-size: 15px;
+}
+#mainContent ul {
+  list-style: disc;
+  margin-left: 1.5em;
+}
+ul.stuMokuji {
+  overflow: hidden;
+  text-align: center;
+  margin: 0 0 20px 270px;
+  width:600px;
+  height: 120px;
+  background: url(../student/img/StumokuAll.png) left top;
+}
+ul.stuMokuji li {
+  float: left;
+}
+ul.stuMokuji a {
+  display:block;
+  width: 120px;
+  height: 120px;
+}
+li#jugyou a:hover {
+  background: url(../student/img/StumokuAll.png) left bottom;
+}
+li#jun a:hover {
+  background: url(../student/img/StumokuAll.png) -120px bottom;
+}
+li#rec a:hover {
+  background: url(../student/img/StumokuAll.png) -240px bottom;
+}
+li#ob a:hover {
+  background: url(../student/img/StumokuAll.png) -360px bottom;
+}
+li#sotu a:hover {
+  background: url(../student/img/StumokuAll.png) right bottom;
+}
+
+/*ul.stuMokuji li {
+  float: left;
+}*/
+h2.studentTitle{
+  font-size: 20px;
+  color: #ffefae;
+  line-height: 2.0;
+  background: #8c6239;
+  border-radius: 1em;
+  padding-left: 1em;
+  margin: 0 30px;
+}
+.content h3 {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px 0;
+}
+.normal {
+  font-weight: normal;
+}
+p.goaisatu {
+  clear: left;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+dl.junkensaki {
+  margin-bottom: 10px;
+}
+p.laboImg {
+  float: right;
+  margin: 0 0 0.5em 1em;
+}
+/* -------------------- 卒業生message -------------------- */
+dl.nisioRon {
+  margin: 0 0 0.8em 1.5em;
+}
+dl.nisioRon dt {
+  font-weight: bold;
+  text-indent: -1em;
+  margin-left: 1em;
+}
+dl.nisioRon li {
+  margin-left: 1em;
+}
+/* -------------------- 卒論修論リスト -------------------- */
+ul.list {
+  margin-left: 6em;
+  margin-top: -1em;
+}
+.dateSmall {
+  font-size: 0.7em;
+  margin-left: 1em;
+  font-weight: normal;
+}
+.date {
+  border-bottom: 1px #542c0b solid;
+  line-height: 1.5;
+  margin-bottom:.8em;
+}
+.sotu, .shu{
+  display: inline;
+  padding: 3px;
+  color: #FFF;
+  border-radius: 5px;
+  line-height: 1.5;
+}
+.sotu {
+  background: #6CC;
+}
+.shu {
+  background: #69F;
+}
+ul.list {
+  margin-bottom: 1em;
+  margin-top: -1.5em;
+}
+ul.list li {
+  line-height: 1.5;
+  text-indent: -6em;
+  margin-left: 5.5em;
+/*  padding: 0.5em 0 0 0;*/
+}
+ul.jampList {
+  overflow: hidden;
+  height: 7em;
+  overflow: hidden;
+  margin: 20px 5em;
+}
+table.jampList{
+  width: 800px;
+  margin: 20px auto;
+}
+table.jampList td {
+  height: 1.5em;
+  text-align: center;
+}
+p#jamp2014 {
+  clear: left;
+}
