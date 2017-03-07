@@ -1,31 +1,46 @@
 @charset "utf-8";
 
 /* -------------------- header layout -------------------- */
+#top_header {
+height: auto;
+}
 h1 {
+  width:100%;
   text-align: center;
-  line-height: 18px;
-  margin-bottom:30px;
+  line-height: 0.8;
+  position: absolute;
+  top: 360px;
+  left: 0;
+  color:#fff4c4;
+  font-size: 36px;
+}
+h1 a {
+color:#fff4c4;
+line-height: 2;
 }
 h1 a:hover {
-  opacity: 0.8;
+opacity: 0.5;
 }
 .logoSmall {
-  color:#fff4c4;
   font-size: 17px;
+  line-height: 1.0;
 }
 header p {
   line-height: 30px;
+  padding: 10px;
   color: #a67c52;
 }
 header span.eng {
-  font-size: 12px;
+  font-size: 14px;
+  padding-left: 10px;
 }
-header img {
-  float: left;
-  margin-right: 5px;
+header p img {
+  float:left;
+  width: 36px;
+  padding-bottom: 10px;
 }
 #top_img {
-  height: 220px;
+height: 300px;
 /*  background: #ccc;*/
 }
 #container {
@@ -33,39 +48,35 @@ header img {
   width: 1020px;
   background: #361700;
 /* box-shadow */
-  box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
   -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
   -moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
+  box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
 }
 
-header {
-  height: 30px;
-}
 main {
   width: 900px;
-  height: 825px;
-  padding: 35px 60px 30px;
+  padding: 160px 60px 30px;
   background: #603813;
 }
 #board {
   background: #1f5244;
-  height: 145px;
   padding: 25px 0 25px 35px;
 /* box-shadow */
-  box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
   -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
   -moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
+  box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
 }
 #stave {
   background: #8c6239;
   height: 10px;
+  margin-bottom: 40px;
 /* box-shadow */
-  box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
   -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
   -moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
+  box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 3px 3px;
 }
 .item {
-  float: left;
+margin-top: 10px;
 }
 /* -------------------- glovalNav layout -------------------- */
 nav#glovalNav ul {
@@ -110,40 +121,274 @@ nav#glovalNav dd{
   font-size: 12px;
 }
 /* -------------------- board layout -------------------- */
-.new tr {
+.new {
+  color: #f6f2dc;
+  font-size: 13px;
   line-height: 1.6;
 }
-.new td {
-  color: #ffffe0;
-  padding-right: 0.5em;
+.info dt {
+float: left;
+width: 10em;
+text-align: right;
 }
-.new td a {
-  color: #ffffe0;
-  text-decoration: underline;
+.info dd {
+padding-left: 12em;
 }
-.new td a:hover {
-  text-decoration: none;
+.info dt,.info dd {
+margin-bottom: 16px;
+line-height: 1.5;
 }
+.new_dl {
+  color: #FC3;
+  margin-right: 14px;
+}
+.info dd a {
+color: #f6f2dc;
+text-decoration: underline;
+}
+.info dd a:hover {
+color:#BCBAA3;
+text-decoration:none;
+}
+
+
+
 .quiz a:hover, .gallery a:hover {
   opacity:0.7;
 }
 .quiz {
   margin-right: 30px;
 }
-.new {
-  color: #f6f2dc;
-  font-size: 13.5px;
-  line-height: 1.6;
-  margin-right: 40px;
-}
+
 .quiz {
   margin-top: -10px;
 }
-.new th {
-  color: #FC3;
-  font-weight: normal;
-  padding-right: 0.5em;
+
+
+/*レスポンシブ*/
+@media screen and (max-width:1019px) {
+#container {
+  width: 100%;
+  position: relative;
+}
+#top_header {
+width: 100%;
+height: auto;
+}
+h1 {
+  width:100%;
+  height: 100px;
+  line-height: 18px;
+  position: absolute;
+  top: 27%;
+  left: 0;
+}
+header p {
+  line-height: 30px;
+  padding: 4px;
+}
+header span.eng {
+  font-size: 12px;
+}
+main {
+  width: 100%;
+  padding: 160px 20px 30px;
+  box-sizing: border-box;
+  background: #603813;
 }
 
-/* //////////////////// ***** //////////////////// */
-/* -------------------- ***** -------------------- */
+#top_img {
+height: auto;
+}
+#top_img img {
+max-width: 100%;
+}
+
+/* -------------------- glovalNav layout -------------------- */
+nav#glovalNav ul {
+  width: 100%;
+  padding: 0;
+}
+nav#glovalNav li{
+  display: block;
+  float: left;
+  width: 30%;
+  height: 180px;
+  text-align: center;
+}
+nav#glovalNav li.topSide{
+  margin-top: 66px;
+}
+nav#glovalNav li.topCenter{
+  display: block;
+  float: left;
+  width: 40%;
+  padding: 0;
+}
+nav#glovalNav li.center{
+  display: block;
+  float: left;
+  width: 40%;
+  height: 180px;
+  margin: 0;
+}
+nav#glovalNav dl dt a:hover {
+  opacity: 0.8;
+}
+nav#glovalNav dt{
+  margin-bottom: 5px;
+}
+nav#glovalNav dd{
+  text-align: center;
+  line-height: 1.5;
+  font-size: 12px;
+}
+nav#glovalNav dt img {
+max-width: 100%;
+}
+
+#footer.top_footer {
+width: 100%;
+box-sizing: border-box;
+}
+}
+
+@media screen and (max-width:900px) {
+h1 {
+  width:100%;
+  height: 100px;
+  line-height: 18px;
+  position: absolute;
+  top: 25%;
+  left: 0;
+}
+}
+
+/*スマホ時*/
+@media screen and (max-width:767px) {
+h1 {
+  width:100%;
+  height: 100px;
+  line-height: 18px;
+  position: absolute;
+  top: 250px;
+  left: 0;
+}
+h1 a {
+display: block;
+width: 100%;
+font-size: 30px;
+}
+.logoSmall {
+  color:#fff4c4;
+  font-size: 13px;
+}
+header p {
+  line-height: 16px;
+  padding-left: 10px;
+  color: #a67c52;
+}
+header p img {
+margin-right: 20px;
+}
+header span.eng {
+  font-size: 11px;
+  padding-left: 0;
+}
+header h1 img {
+  margin-right: 0;
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+/* -------------------- glovalNav layout -------------------- */
+nav#glovalNav ul {
+  width: 100%;
+  padding: 60px;
+  box-sizing: border-box;
+}
+nav#glovalNav li{
+  display: block;
+  float:none;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+nav#glovalNav li.topSide{
+  margin-top: 0;
+  background: #de734f;
+}
+nav#glovalNav li.topCenter{
+  display: block;
+  float:none;
+  width: 100%;
+  padding: 0;
+  border: 6px solid #fba83b;
+}
+nav#glovalNav li.center{
+  display: block;
+  float:none;
+  width: 100%;
+  height: 120px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+nav#glovalNav dl dt a:hover {
+  opacity: 0.8;
+}
+nav#glovalNav dt{
+  width: 140px;
+  margin-bottom: 5px;
+  position: absolute;
+  top: -40px;
+  left: -60px;
+}
+nav#glovalNav dd{
+  text-align: center;
+  line-height: 1.5;
+  font-size: 12px;
+  padding: 50px 10px 0;
+  box-sizing: border-box;
+}
+nav#glovalNav dt img {
+max-width: 100%;
+}
+
+/* -------------------- board layout -------------------- */
+#board {
+  padding: 15px 5px 15px 0;
+}
+.new {
+  color: #f6f2dc;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.info dt {
+float: left;
+width: 10em;
+text-align: right;
+}
+.info dd {
+padding-left: 11em;
+}
+.info dt,.info dd {
+margin-bottom: 16px;
+}
+.new_dl {
+  color: #FC3;
+  margin-right: 10px;
+}
+.info dd a {
+color: #f6f2dc;
+text-decoration: underline;
+}
+.info dd a:hover {
+color:#BCBAA3;
+text-decoration:none;
+}
+
+}

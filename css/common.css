@@ -42,9 +42,6 @@ body {
   background: #998675;
   overflow-y:scroll;
 }
-*html body {overflow-y: auto;} /* IE6 */
-*:first-child+html body {overflow-y: auto;} /* IE7 */
-
 header {
   height: 115px;
 }
@@ -123,4 +120,11 @@ a#bottom {
 }
 a#bottom:hover {
   opacity: 0.8;
+}
+/* -------------------- margin -------------------- */
+.mb10 {
+	margin-bottom: 10px;
+}
+.mb30 {
+	margin-bottom: 30px;
 }

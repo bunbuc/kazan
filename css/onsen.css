@@ -101,11 +101,39 @@ p.hitokoto {
   display: block;
   text-align: center;
 }
+#onsenBangai {
+  width: 460px;
+	float: left;
+  overflow:hidden;
+  margin-bottom: 20px;
+}
+#onsenBangai a.toggle {
+  background: #61ab8c;
+  line-height: 3.0;
+  color: #FFF;
+  display: block;
+  text-align: center;
+}
+#onsenKyoretu {
+  width: 460px;
+	float: left;
+  overflow:hidden;
+  margin-bottom: 20px;
+}
+#onsenKyoretu a.toggle {
+  background: #5f3712;
+  line-height: 3.0;
+  color: #FFF;
+  display: block;
+  text-align: center;
+}
+
+
 p.onsenTitle {
   margin-bottom: 10px;
 }
 #onsenLeft a.toggle {
-  background: #5f3712;
+/*  background: #5f3712;*/
   line-height: 3.0;
   color: #FFF;
   display: block;

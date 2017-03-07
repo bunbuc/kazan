@@ -2,8 +2,9 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>日本大学文理学部&nbsp;地球科学科テスト21日</title>
+  <title>日本大学文理学部&nbsp;地球科学科</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/top.css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -21,7 +22,7 @@
       $('#randomShow').attr('src', 'img/photo' + rdm + '.png');
     });
     $(function () {
-      $('#randomShow').fadeIn(2500);
+      $('#randomShow').fadeIn(2000);
     });
   </script>
   <meta name="viewport" content="width=device-width">
@@ -29,18 +30,18 @@
 
 <body>
   <div id="container">
-    <header>
-      <h1><span class="logoSmall">日本大学&nbsp;文理学部&nbsp;地球科学科<br>地震火山教育研究部門&nbsp;火山・岩石学領域のページです</span><br><a href="index.html"><img src="img/logo_labo.png" alt=""></a></h1>
+    <header id="top_header">
+     <h1><span class="logoSmall">日本大学&nbsp;文理学部&nbsp;地球科学科<br>地震火山教育研究部門&nbsp;火山・岩石学領域のページです</span><br><a href="index.html">火山・岩石学研究室</a></h1>
       <p><img src="img/NUbasiclogomark_s.png" alt=""><span class="eng">Department of Earth and Environmental Sciences, College of Humanities and Sciences, Nihon University</span></p>
     </header>
     <!--/.header-->
     <div id="top_img">
-      <img src="img/blank.png" alt="" id="randomShow">
+    <p><img src="img/blank.png" alt="日本大学文理学部地球科学科の火山写真" id="randomShow"></p>
     </div>
     <!--/#top_img-->
 
     <main>
-     
+    
       <nav id="glovalNav">
         <ul>
           <li class="topSide">
@@ -80,36 +81,25 @@
           </li>
         </ul>
       </nav>
-      <div id="board">
-        <div class="item new">
-          <table>
-            <tr>
-              <th>NEW</th>
-              <td>2016.12.04</td>
-              <td><a href="volcano/index.html">火山ページ</a>「執筆中」に変更しました</td>
-            </tr>
-            <tr>
-              <th></th>
-              <td>2016.11.22</td>
-              <td>★温泉写真は違ってるところもあると思います。次直します。</td>
-            </tr>
-            <tr>
-              <th></th>
-              <td>2016.11.21</td>
-              <td>全ページ　footer目次修正しました</td>
-            </tr>
-            <tr>
-              <th></th>
-              <td>2016.11.21</td>
-              <td><a href="kiyou/index.html">紀要ページ</a>　2016年度紀要追加しました。</td>
-            </tr>
-            <th></th>
-            <td>2016.11.21</td>
-            <td><a href="student/index.html">高校生ページ</a>　解説図を削除しました</td>
-            </tr>
-          </table>
-        </div>
+     
+        
         <!--/.new-->
+        
+<div class="item new" id="board">
+<dl class="info">
+<dt><span class="new_dl">NEW</span>2017.03.01</dt>
+<dd><a href="labo/aramaki.html">研究室ページ</a> 荒牧先生ページ作りました。論文ページはまだです</dd>
+<dt><span class="new_dl">NEW</span>2017.03.01</dt>
+<dd><a href="student/index.html">高校生ページ</a> 修正しました</dd>
+<dt><span class="new_dl">NEW</span>2017.03.01</dt>
+<dd><a href="labo/index.html">研究室ページ</a> 研究室ページ修正しました</dd>
+<dt>2017.02.25</dt>
+<dd><a href="onsen/index.html">温泉ページ</a> 番外編追加しました。</dd>
+<dt>2017.02.24</dt>
+<dd>TOPページ調整中です</dd>
+<dl>
+</div>
+<div id="stave"></div>
         <!--<div class="item quiz">
 <p><a href="#"><img src="img/quiz_1.png" alt=""></a></p>
 <p><a href="#"><img src="img/quiz_2.png" alt=""></a></p>
@@ -118,14 +108,14 @@
         <!--<div class="item gallery">
 <p><a href="#"><img src="img/icon_gallery.png" alt=""></a></p>
 </div>/.gallery-->
-      </div>
-      <!--/#board-->
-      <div id="stave"></div>
-      <!--/#stave-->
+ 
+    
+     
+     
     </main>
     <!-- ///////////////   ↓全ページ共通部分↓   /////////////// -->
 
-    <div id="footer">
+    <div id="footer" class="top_footer">
       <ul class="footerNav">
         <li class="bold">CONTENTS</li>
         <li><a href="volcano/index.html">火山いろいろ</a></li>
