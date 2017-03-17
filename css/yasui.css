@@ -35,7 +35,7 @@ p.kousinDate {
   font-size: 14px;
 }
 #wrapperPlus {
-  background: url(../takahashi/img/labo_backimg_s.png) no-repeat center top;
+  background: url(../labo/takahashi/img/labo_backimg_s.png) no-repeat center top;
   height: 70px;
 }
 #wrapper {
@@ -75,23 +75,23 @@ ul.takahashiList li a {
   display: block;
   width: 170px;
   height: 100px;
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat center bottom;
+  background: url(../labo/takahashi/img/takahashi_btn.png) no-repeat center bottom;
 }
 ul.takahashiList li#chosaku a {
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat right bottom;
+  background: url(../labo/takahashi/img/takahashi_btn.png) no-repeat right bottom;
 }
 ul.takahashiList li#kenkyusi a {
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat left bottom;
+  background: url(../labo/takahashi/img/takahashi_btn.png) no-repeat left bottom;
 }
 
 ul.takahashiList li#ronbun a:hover {
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat center top;
+  background: url(../labo/takahashi/img/takahashi_btn.png) no-repeat center top;
 }
 ul.takahashiList li#chosaku a:hover {
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat right top;
+  background: url(../labo/takahashi/img/takahashi_btn.png) no-repeat right top;
 }
 ul.takahashiList li#kenkyusi a:hover {
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat left top;
+  background: url(../labo/takahashi/img/takahashi_btn.png) no-repeat left top;
 }
 
 dl.book img {

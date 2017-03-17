@@ -18,7 +18,7 @@ main {
 }
 ul.ronbunList {
   list-style: decimal;
-  margin-left: 1.0em;
+  margin-left: 3.0em;
 }
 ul.ronbunList li {
   line-height: 1.4;
@@ -48,7 +48,7 @@ p.kousinDate {
   font-size: 14px;
 }
 #wrapperPlus {
-  background: url(../takahashi/img/labo_backimg_s.png) no-repeat center top;
+  background: url(../labo/takahashi/img/labo_backimg_s.png) no-repeat center top;
   height: 70px;
 }
 #wrapper {

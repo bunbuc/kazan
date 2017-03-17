@@ -54,7 +54,7 @@ header {
 }
 #footer {
   overflow: hidden;
-  width: 930px;
+/*  width: 930px;*/
 /*  height: 250px;*/
   background: #361700 url(../img/footer_back.png) left bottom no-repeat;
   padding: 20px 5px;
