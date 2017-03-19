@@ -15,7 +15,7 @@ p.logo{
 main {
   overflow: hidden;
   background: #ffe4b2 url(../onsen/img/onsenTitle.png) no-repeat center 10px;
-  color:#542c0b;
+/*  color:#542c0b;*/
   border-radius: 20px;
   margin: 20px;
 }
@@ -151,7 +151,7 @@ ul.inner {
   background: #FFF;
 }
 li.onsenmei {
-  line-height:2.0;
+  line-height:1.5;
   font-weight: bold;
   border-bottom: #5f3712 dashed 1px;
   margin-bottom: 5px;
@@ -163,7 +163,7 @@ li.tokuchou {
   font-weight: bold;
   padding: 0 0.5em;
   line-height: 1.3;
-  color: #825836;
+/*  color: #825836;*/
 }
 li.kaisetu {
   line-height: 1.4;
