@@ -120,8 +120,6 @@ padding-top: 5px;
 }
 
 
-
-
 /* -------------------- TOPに戻るボタン -------------------- */
 a#bottom {
   position: fixed;
@@ -146,4 +144,126 @@ a#bottom:hover {
 }
 .mb30 {
 	margin-bottom: 30px;
+}
+
+
+/* -------------------- #sorry layout -------------------- */
+
+/*#sorry {
+  margin:300px 0 20px;
+  text-align: center;
+  color: #8c6239;
+  font-size: 15px;
+}
+#sorry p.fukusuke a{
+  display: block;
+  width: 140px;
+  height: 160px;
+  background: url(../img/fukusuke00.png) no-repeat center;
+  margin: auto;
+}
+#sorry p.fukusuke a:hover{
+  width: 140px;
+  height: 160px;
+  background: url(../img/fukusuke01.png) no-repeat center;
+  margin: auto;
+}*/
+/* -------------------- nav layout -------------------- */
+#pc-nav {
+  overflow: hidden;
+}
+#pc-nav ul.main li {
+  float: left;
+}
+#pc-nav ul.main li a {
+  display: block;
+  width: 170px;
+  height: 50px;
+}
+#pc-nav li.volcano {
+  background: url(../img/nav_btn2.png) left -50px;
+}
+#pc-nav li.labo {
+  background: url(../img/nav_btn2.png) -170px -50px;
+}
+#pc-nav li.junken {
+  background: url(../img/nav_btn2.png) -340px -50px;
+}
+#pc-nav li.kiyou {
+  background: url(../img/nav_btn2.png) -510px -50px;
+}
+#pc-nav li.student {
+  background: url(../img/nav_btn2.png) -680px -50px;
+}
+#pc-nav li.onsen {
+  background: url(../img/nav_btn2.png) right -50px;
+}
+#pc-nav li.volcano a:hover{
+  background: url(../img/nav_btn2.png) left top;
+}
+#pc-nav li.labo a:hover{
+  background: url(../img/nav_btn2.png) -170px top;
+}
+#pc-nav li.junken a:hover{
+  background: url(../img/nav_btn2.png) -340px top;
+}
+#pc-nav li.kiyou a:hover{
+  background: url(../img/nav_btn2.png) -510px top;
+}
+#pc-nav li.student a:hover{
+  background: url(../img/nav_btn2.png) -680px top;
+}
+#pc-nav li.onsen a:hover{
+  background: url(../img/nav_btn2.png) right top;
+}
+#sp-nav {
+display: none;
+}
+
+
+/* --------------------.backenext layout -------------------- */
+#backnext {
+  background: #8C6239;
+}
+#backnext ul {
+  text-align: center;
+  line-height: 2.5;
+}
+#backnext li {
+  display: inline;
+  color: #361700;
+}
+#backnext li.navicenter {
+  padding: 0 12em;
+}
+
+#backnext a:hover, #backnext a {
+  color:#361700;
+  text-decoration: underline;
+}
+
+/* -------------------- スマホナビ -------------------- */
+@media screen and (max-width:767px) {
+#pc-nav {
+display: none;
+}
+
+#sp-nav {
+display: block;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
