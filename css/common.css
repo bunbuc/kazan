@@ -244,14 +244,9 @@ display: none;
 
 /* -------------------- スマホナビ -------------------- */
 @media screen and (max-width:767px) {
-#pc-nav {
-display: none;
-}
 
-#sp-nav {
-display: block;
-overflow: hidden;
-}
+
+
 
 
 
