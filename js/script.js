@@ -18,7 +18,7 @@ if($(window).innerWidth() > 1019){
 
 
 //温泉ページのアコーディオンメニュー
-$(window).resize(function(){
+$(window).on('load resize',function(){
   if($(window).innerWidth() <= 640){
 $('ul.outer').css('display','none');
 $('#onsenAll h2').on('click',function(){
@@ -44,6 +44,21 @@ $('li.more').on('click',function(){
             flg = "close"
             };
   });
+
+$('li.show').on('click',function(){
+  if($(window).innerWidth() <= 640){
+      $(this).siblings('li:nth-child(n+2)').slideToggle(0);
+  };
+  
+  if(flg == "close"){
+            $(this).text('閉じる');
+            flg = "open";
+        }else{
+            $(this).text('もっと見る');
+            flg = "close"
+            };
+  });
+  
 var flg = "close";
   
 
