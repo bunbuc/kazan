@@ -168,3 +168,72 @@ table.jampList td {
 p#jamp2014 {
   clear: left;
 }
+
+
+/*レスポンシブ                                                              */
+@media screen and (max-width:1019px) {
+main {
+  background: #ffefae;
+  color:#42210b;
+}
+#wrapper {
+  background: #ffefae;
+  margin: 0;
+  border-radius: 30px;
+}
+#mokuji {
+  background-image: none;
+  padding-top: 50px;
+}
+ul.stuMokuji {
+  overflow: hidden;
+  text-align: center;
+  margin: 0 0 20px 0;
+  width:100%;
+  height: 120px;
+  background: url(../student/img/StumokuAll.png) no-repeat center top;
+}
+
+li#jugyou a:hover {
+  background: none;
+}
+li#jun a:hover {
+  background: none;
+}
+li#rec a:hover {
+  background:none;
+}
+li#ob a:hover {
+  background: none;
+}
+li#sotu a:hover {
+  background: none;
+}
+
+p.goaisatu {
+  clear: left;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+table.jampList{
+  width: 100%;
+  margin: 20px auto;
+}
+table.jampList td {
+  height: 1.5em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+}
+
+
+@media screen and (max-width:767px) {
+ul.stuMokuji {
+  display: none;
+}
+}
