@@ -10,6 +10,7 @@ sans-serif;
 }
 a {
   text-decoration: none;
+  color: #222;
 }
 ul, ol {
   list-style: none; /* マーカーを消す */
@@ -155,7 +156,7 @@ a#bottom {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 a#bottom:hover {
   opacity: 0.8;

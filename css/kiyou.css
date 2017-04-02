@@ -88,15 +88,72 @@ h2 {
   font-weight: bold;
   margin-right: 1.0em;
 }
-/* ===========================================
-	SizeAdjustment
-=========================================== */
-@media screen and (max-width: 959px) {
-main {
-  max-width: 100%;
+
+/*レスポンシブ*/
+@media screen and (max-width:1019px) {
+ul.yearList {
+  text-align:left;
+  margin-bottom: 1.0em;
+}
+ul.yearList li {
+  display: inline-block;
+  padding: 0 0.5em;
+  border-right: 1px #542c0b solid;
+  line-height: 1.5;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+dl.kiyouList dt {
+  font-weight: bold;
+  float:none;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+dl.kiyouList dd {
+  font-size: 14px;
+  margin-left: 2em;
+}
+
+}
+
+@media screen and (max-width:767px) {
+#wrapper {
+  padding: 0;
+  margin: 10px;
+  border:none;
+  border-radius: 0;
+}
+dl.kiyouList {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px #998675 dotted;
+  font-size: 14px;
+}
+ul.yearList li {
+text-align: center;
+  width: 32%;
+  display: inline-block;
+  padding:10px 20px;
+  box-sizing: border-box;
+  border-right: none;
+  border: 1px solid #361700;
+  border-radius: 4px;
+  line-height: 1.5;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+ul.yearList li a {
+  text-decoration:none;
+}
+ul.yearList li:last-child {
+  border-right:1px solid #361700;
 }
 }
-@media screen and (max-width: 640px) {
-main {
-  max-width: 100%;
-}
+
+
+
+
+
+
+
+

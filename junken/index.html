@@ -4,11 +4,13 @@
 <meta charset="UTF-8">
 <title>日大／火山・岩石学研究室／巡検ページ</title>
 <meta name="description" content="日本大学 文理学部 地球科学科、地震火山教育研究部門火山・岩石学領域のホームページです。研究室では火山の噴火や地下のマグマプロセスなどについて教育・研究を行っています。野外実習（巡検）の様子なども掲載しています。">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../css/common.css">
 <link rel="stylesheet" href="../css/junken.css">
 <link rel="shortcut icon" href="../favicon.ico">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="../js/script.js"></script>
 <script src="GoogleImgSearch.js"></script>
 <script>
 $(function(){
@@ -34,40 +36,42 @@ $(function(){
 </script>
 <meta name="viewport" content="width=device-width">
 </head>
-<body id="top">
+<body id="top" class="other_page">
 <div id="container">
-<header>
-<p class="logo"><a href="../index.html"><img src="../img/logo.png" alt=""></a></p><p><img src="../img/header_img.png" alt=""></p>
-</header>
-<nav id="pc-nav">
+	<header>
+			 <h1><a href="index.html">日本大学文理学部地球科学科<br>地震火山教育研究部門<br id="tab">火山・岩石学領域火山・岩石学研究室</a></h1>
+			<p class="pc-img"><img src="../img/header_img.png" alt=""></p>
+      <p id="hum"><span id="bar"></span></p>
+		</header>
+		<nav id="pc-nav">
+			<ul class="main">
+				<li class="volcano"><a href="../volcano/index.html">火山ページ</a></li>
+				<li class="labo"><a href="../labo/index.html">研究室ページ</a></li>
+				<li class="this"><a href="index.html">巡検ページ</a></li>
+				<li class="kiyou"><a href="../kiyou/index.html">紀要ページ</a></li>
+				<li class="student"><a href="../student/index.html">高校生ページ</a></li>
+				<li class="onsen"><a href="../onsen/index.html">温泉ページ</a></li>
+			</ul>
+		</nav>
+		
+		<nav id="sp-nav">
 <ul class="main">
-<li class="volcano"><a href="../volcano/index.html"></a></li>
-<li class="labo"><a href="../labo/index.html"></a></li>
-<li class="this"><a href="index.html"></a></li>
-<li class="kiyou"><a href="../kiyou/index.html"></a></li>
-<li class="student"><a href="../student/index.html"></a></li>
-<li class="onsen"><a href="../onsen/index.html"></a></li>
-</ul>
-</nav>
-
-<nav id="sp-nav">
-<ul class="main">
-<li class="volcano"><a href="../volcano/index.html"></a></li>
-<li class="labo"><a href="../labo/index.html"></a></li>
-<li class="junken"><a href="../junken/index.html"></a></li>
-<li class="this"><a href="index.html"></a></li>
-<li class="student"><a href="../student/index.html"></a></li>
-<li class="onsen"><a href="../onsen/index.html"></a></li>
-</ul>
+        <li><a href="../index.html">トップページ</a></li>
+				<li><a href="../volcano/index.html">火山ページ</a></li>
+				<li><a href="../labo/index.html">研究室ページ</a></li>
+				<li><a href="../kiyou/index.html">紀要ページ</a></li>
+				<li><a href="../student/index.html">高校生ページ</a></li>
+				<li><a href="../onsen/index.html">温泉ページ</a></li>
+			</ul>
 </nav>
 <!-- ///////////////   ↑全ページ共通部分↑   /////////////// -->
 <main>
 <div id="junkenTop">
 <p class="junSetu">当研究室では、実際にフィールドに出かけて本物に触れる野外実習（巡検）を実施しています。<br>火山地形をスケッチしたり、噴出物を観察した結果を発表してもらい、参加者全員でフィールドから読み取れることを考えていきます。ここでは、こうした“アクティブ・ラーニング”の現場の様子を、過去に行われた実習の写真を例に紹介します。</p>
-<div class="mokuji1">
+<div class="mokuji1 sp_off">
 <p class="junkencap">●&nbsp;国内<br>これまで以下のような火山や地域で野外実習を実施してきました：磐梯、那須、日光白根、榛名、草津白根、浅間、八ヶ岳、富士、箱根、東伊豆、伊豆大島、新潟焼山、阿蘇、霧島、桜島、丹沢。ここでは主なものを紹介します。</p>
 </div><!--/.mokuji-->
-<div class="mokuji2">
+<div class="mokuji2 sp_off">
 <ul class="junkenList">
 <li>●&nbsp;<a href="http://www.chs.nihon-u.ac.jp/geo_dpt/html/event/practice/" target="blank">海外</a></li>
 <li class="listKaigai">当研究室では、文理学部の総合教育科目「海外実地研究」でハワイ島での野外実習を継続的に行っています。<br><small>※別ページが開きます</small></li>
@@ -467,7 +471,7 @@ $(function(){
   <div class="selfRep">
   <div class="selfRepInner">
   <div class="secLeft"><img src="img/oshima2.jpg" alt=""></div>
-  <div class="secRight"><h3 class="smallTitle">伊豆大島巡検（1）</h3><p>火山博物館の見学。伊豆大島火山のおいたちを勉強します。/p>
+  <div class="secRight"><h3 class="smallTitle">伊豆大島巡検（1）</h3><p>火山博物館の見学。伊豆大島火山のおいたちを勉強します。</p>
   </div><!--/.secRight-->
   </div><!--/.selfRepInner-->
   </div><!--/.selfRep-->
@@ -524,18 +528,20 @@ $(function(){
 </main>
 
 <!-- ///////////////   ↓全ページ共通部分↓   /////////////// -->
-
-<div id="footer">
+<div id="footer" class="top_footer">
       <ul class="footerNav">
         <li class="bold">CONTENTS</li>
+        <li><a href="../index.html">トップページ</a></li>
         <li><a href="../volcano/index.html">火山いろいろ</a></li>
         <li><a href="../labo/index.html">研究室あれこれ</a></li>
-        <li><a href="../junken/index.html">巡検（国内・海外）</a></li>
         <li><a href="../student/index.html">高校生の皆様</a></li>
         <li><a href="../kiyou/index.html">紀要</a></li>
-        <li><a href="../onsen/index.html">火山の恵み・温泉</a></li>
+        <li><a href="../onsen/index.html">火山の恵み・温泉のこと</a></li>
       </ul>
-</div><!--/#footer-->
+      <p><img src="../img/NUbasiclogomark.png" alt="日本大学のロゴ"><small>Department of Geosystem Sciences, College of Humanities and Sciences, Nihon University
+3-25-40, Sakurajosui, Setagaya-ku, Tokyo 156-8550 Japan</small></p>
+    </div>
+<!--/#footer-->
 <p><a id="bottom" href="#top">TOPに戻る</a></p>
 </div><!--/#container-->
 </body>

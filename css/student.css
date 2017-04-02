@@ -13,6 +13,9 @@ main {
   margin: 30px;
   border-radius: 30px;
 }
+.sp_on {
+display: none;
+}
 #mokuji {
   background: url(../student/img/3students.png) no-repeat left top;
   padding-top: 50px;
@@ -127,6 +130,7 @@ ul.list {
   border-bottom: 1px #542c0b solid;
   line-height: 1.5;
   margin-bottom:.8em;
+  font-size: 17px;
 }
 .sotu, .shu{
   display: inline;
@@ -233,7 +237,126 @@ table.jampList td {
 
 
 @media screen and (max-width:767px) {
+.sp_on {
+display: block;
+}
+.sp_off {
+display: none;
+}
+h2.sp_on {
+text-align: center;
+margin-bottom: 30px;
+font-size: 22px;
+}
 ul.stuMokuji {
   display: none;
 }
+p.goaisatu {
+  clear: left;
+  text-align:left;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+br.sp_br {
+display: none;
+}
+
+h2.studentTitle{
+  font-size: 18px;
+  color: #ffefae;
+  line-height: 2.0;
+  background: #8c6239;
+  border-radius: 1em;
+  padding-left: 1em;
+  margin: 0 20px;
+}
+.content {
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+.soturonList {
+  padding: 0 0.8em;
+}
+/* -------------------- item -------------------- */
+#mainContent p, li, dt, dd {
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+.dateSmall {
+display: block;
+  font-size: 0.7em;
+  margin-left: 2em;
+  font-weight: normal;
+  line-height: 1.3;
+  padding-bottom: 15px;
+}
+
+/* -------------------- 卒論修論リスト -------------------- */
+ul.list {
+  margin-left: 6em;
+  margin-top: -1em;
+}
+.dateSmall {
+  font-size: 0.7em;
+  margin-left: 1em;
+  font-weight: normal;
+}
+.date {
+  border-bottom: 1px #542c0b solid;
+  line-height: 1.5;
+  margin-bottom:.8em;
+  font-size: 16px;
+  font-weight: normal;
+}
+.sotu, .shu{
+  display: inline;
+  padding: 3px;
+  color: #FFF;
+  border-radius: 5px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+.sotu {
+  background: #6CC;
+}
+.shu {
+  background: #69F;
+}
+ul.list {
+  margin-bottom: 1em;
+  margin-top: -1.5em;
+}
+ul.list li {
+  line-height: 1.5;
+  text-indent: -6em;
+  margin-left: 4.5em;
+/*  padding: 0.5em 0 0 0;*/
+}
+
+
+table.jampList{
+  width: 100%;
+  margin: 20px auto;
+}
+table.jampList td {
+  height: 1.5em;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+table.jampList tr:nth-child(n+2) {
+display: none;
+}
+
+ul.list li:nth-child(n+4) {
+display:none;
+}
+.soturonList h3.date:nth-of-type(n+5){
+display: none;
+}
+
 }

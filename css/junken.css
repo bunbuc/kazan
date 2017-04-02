@@ -229,6 +229,82 @@ h3.smallTitle {
 
 
 
+/*レスポンシブ*/
+@media screen and (max-width:1019px) {
+#junkenTop {
+  background: #FFF url(../junken/img/junImg2.png) no-repeat left bottom/contain;
+  height: 350px;
+  padding: 20px 45px ;
+  overflow: hidden;
+}
+#junkenTop p {
+font-size: 14px;
+}
+
+.mokuji2 {
+  width: 300px;
+  float: left;
+}
+p.junkencap {
+  color: #FFF;
+  line-height: 1.6;
+  font-size: 14px;
+  margin: 0 1.5em 10px 0;
+  text-shadow: 0 0 2px #000;
+}
+
+
+
+ul.junkenList li a, ul.junkenList li{
+  color: #FFF;
+  line-height: 1.5;
+  font-size: 14px;
+  margin-right: 0.5em;
+  border-radius: 1.0;
+  text-shadow: 0 0 2px #000;
+}
+ul.kokunaiList li  {
+margin-bottom: 10px;
+}
+ul.kokunaiList li a {
+  background: #F90;
+  color: #FFF;
+  display: block;
+  padding: 6px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+}
+
+@media screen and (max-width:767px) {
+.sp_off {
+display: none;
+}
+#junkenTop {
+  height:auto;
+  padding: 20px;
+  overflow: hidden;
+}
+}
+p.junSetu {
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+ul.kokunaiList li  {
+margin-bottom: 10px;
+}
+ul.kokunaiList li a {
+  background: #F90;
+  color: #FFF;
+  display: block;
+  padding: 6px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+
 /* ===========================================
 	SizeAdjustment
 =========================================== */

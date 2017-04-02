@@ -18,8 +18,8 @@ main {
 }
 
 #wrapperPlus {
-	background: url(../labo/img/labo_backimg.png) no-repeat center top;
-	height: 270px;
+	background: url(../labo/img/labo_backimg.png) no-repeat center bottom/contain;
+	height: 250px;
 }
 
 #wrapper {
@@ -37,9 +37,7 @@ main {
 	clear: left;
 }
 
-.box1,
-.box2 {
-	/*  background: #eee;*/
+.box1, .box2 {
 	width: 270px;
 	float: left;
 	margin-bottom: 15px;
@@ -89,20 +87,12 @@ li.this {
 }
 
 
-/*ul.laboMember img {
-  text-align: center;
-}*/
-
 ul.theme li {
 	list-style-type: disc;
 	margin-left: 2.0em;
 	line-height: 1.6;
 }
 
-
-/*#wrapper p, li {
-  line-height:1.4;
-}*/
 
 ul.gakureki li {
 	font-size: 13px;
@@ -248,3 +238,71 @@ li.aramakiVolcano {
 	padding-left: 1.0em;
 	list-style: none;
 }
+
+
+/*レスポンシブ*/
+@media screen and (max-width:1019px) {
+#wrapper {
+	padding: 50px 20px 0;
+	overflow: hidden;
+	background: url(../labo/img/labo_repimg.png);
+}
+
+#laboMember {
+	overflow: hidden;
+	clear: left;
+  margin-top: 60px;
+}
+.left1 {
+	width: 35%;
+	float: left;
+}
+.about {
+	width: 60%;
+	margin-bottom: 30px;
+	float: right;
+}
+.box1, .box2 {
+	width: 70%;
+	float: none;
+  margin: 0 auto 70px;
+}
+.catImg {
+text-align: center;
+}
+}
+@media screen and (max-width:767px) {
+.sp_off {
+display: none;
+}
+main {
+background:#D7C19B;
+}
+#wrapperPlus {
+  margin-top: 20px;
+	height: 240px;
+  background:#D7C19B url(../img/laboMain.svg) no-repeat center/contain;
+}
+#wrapper {
+	padding: 50px 20px 0;
+	overflow: hidden;
+	background:#D7C19B;
+}
+.about p {
+font-size: 14px;
+}
+
+
+
+.left1 {
+	width: 100%;
+	float: none;
+}
+.about {
+	width: 100%;
+	margin-bottom: 30px;
+	float: none;
+}
+
+}
+
