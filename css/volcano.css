@@ -23,12 +23,6 @@ main {
 }
 main {
 }
-/*.left {
-  width: 270px;
-  height: 500px;
-  background: #ccc;
-  float: left;
-}*/
 .right {
   width: 680px;
 /*  background: #ccc;*/
@@ -58,19 +52,6 @@ li.this {
 ol.asamaContents li{
   font-size: 15px;
   line-height: 1.8;
-}
-li.titleOnly a {
-/*  display: block;
-  width: 240px;
-  line-height: 2.0;
-  background: #a48566;
-  padding: 5px;
-  font-size: 16px;
-  color: #603813;
-  font-weight: bold;
-  color: #FFF;
-  text-align: center;
-  opacity: 0.8;*/
 }
 li.titleOnly a:hover {
   background: #8c653e;

@@ -4,11 +4,6 @@ p.logo{
   float: left;
 }
 /* -------------------- layout -------------------- */
-/*#contents {
-  height: 200px;
-  background: #ccbaa9;
-  overflow: hidden;
-}*/
 main {
   background: #FFF;
   color:#542c0b;
@@ -148,12 +143,3 @@ ul.yearList li a {
 ul.yearList li:last-child {
   border-right:1px solid #361700;
 }
-}
-
-
-
-
-
-
-
-

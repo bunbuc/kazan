@@ -161,13 +161,6 @@ p.prof1 {
 	border-bottom: 1px #542c0b dashed;
 }
 
-table,
-th,
-td {
-	/*  border: 1px #333 solid;
-  border-collapse : collapse; */
-}
-
 table {
 	margin-bottom: 20px;
 }

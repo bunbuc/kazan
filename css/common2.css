@@ -1,26 +1,4 @@
 @charset "UTF-8";
-/* -------------------- #sorry layout -------------------- */
-
-/*#sorry {
-  margin:300px 0 20px;
-  text-align: center;
-  color: #8c6239;
-  font-size: 15px;
-}
-#sorry p.fukusuke a{
-  display: block;
-  width: 140px;
-  height: 160px;
-  background: url(../img/fukusuke00.png) no-repeat center;
-  margin: auto;
-}
-#sorry p.fukusuke a:hover{
-  width: 140px;
-  height: 160px;
-  background: url(../img/fukusuke01.png) no-repeat center;
-  margin: auto;
-}*/
-/* -------------------- nav layout -------------------- */
 nav {
   overflow: hidden;
 }

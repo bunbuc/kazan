@@ -80,34 +80,6 @@ p.kenkyusi {
   line-height: 1.5;
   font-size: 15px;
 }
-/*ul.takahashiList {
-  overflow: hidden;
-  width: 510px;
-  height: 100px;
-}*/
-/*ul.takahashiList li a {
-  display: block;
-  width: 170px;
-  height: 100px;
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat center bottom;
-}
-ul.takahashiList li#chosaku a {
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat right bottom;
-}
-ul.takahashiList li#kenkyusi a {
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat left bottom;
-}
-
-ul.takahashiList li#ronbun a:hover {
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat center top;
-}
-ul.takahashiList li#chosaku a:hover {
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat right top;
-}
-ul.takahashiList li#kenkyusi a:hover {
-  background: url(../takahashi/img/takahashi_btn.png) no-repeat left top;
-}*/
-
 dl.book img {
   box-shadow: 4px 4px 3px rgba(0,0,0,0.3);
 }
