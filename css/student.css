@@ -358,3 +358,14 @@ display:none;
 .soturonList h3.date:nth-of-type(n+5){
 display: none;
 }
+.soturonList p.more {
+font-size: 14px;
+text-align: center;
+padding: 15px;
+border: 1px solid #000000;
+width: 200px;
+margin: 30px auto;
+}
+
+
+}

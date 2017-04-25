@@ -17,12 +17,48 @@ if($(window).innerWidth() > 1019){
 });
 
 
+
+//スムーススクロール
+$(function(){
+	var topBtn = $('#bottom');    
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+	$('a[href^="#"]').click(function(){
+		var speed = 500;
+		var href= $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top;
+		$("html, body").animate({scrollTop:position}, speed, "swing");
+		return false;
+	});
+});
+
+
+
+
+
+
+
+
 //温泉ページのアコーディオンメニュー
 $(window).on('load resize',function(){
   if($(window).innerWidth() <= 640){
 $('ul.outer').css('display','none');
-$('#onsenAll h2').on('click',function(){
-      $(this).siblings('ul').not(':animated').slideToggle(100);
+$('#onsenAll h2').on('touchstart',function(){
+      if($(this).siblings('ul').css('display')=='none'){
+      $('ul.outer').slideUp(200);
+      $(this).siblings('ul.outer').slideDown(200);
+      }else{
+       $(this).siblings('ul.outer').slideUp(200);
+      }
+      
   });
  }else {
  $('ul.outer').css('display','block');
@@ -58,8 +94,26 @@ $('li.show').on('click',function(){
             flg = "close"
             };
   });
+
+
+//高校生ページのアコーディオン
+$('p.more').on('click',function(){
+ if($(window).innerWidth() <= 640){
+     $(this).prev('ul').children('li:nth-child(n+4)').slideToggle(0);
+     $(this).toggleClass('opened');
+     
+     if($(this).hasClass('opened')){
+       $(this).text('閉じる')
+     }else{
+       $(this).text('もっと見る');
+     }
+ };
+});
+
+
   
-var flg = "close";
-  
+
+
+
 
 });

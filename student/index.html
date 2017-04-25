@@ -11,28 +11,6 @@
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="../js/script.js"></script>
-<script>
-$(function(){
-	var topBtn = $('#bottom');    
-    topBtn.hide();
-    //スクロールが100に達したらボタン表示
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            topBtn.fadeIn();
-        } else {
-            topBtn.fadeOut();
-        }
-    });
-	$('a[href^=#]').click(function(){
-		var speed = 500;
-		var href= $(this).attr("href");
-		var target = $(href == "#" || href == "" ? 'html' : href);
-		var position = target.offset().top;
-		$("html, body").animate({scrollTop:position}, speed, "swing");
-		return false;
-	});
-});
-</script>
 </head>
 <body id="top" class="other_page">
 <div id="container">
@@ -223,7 +201,7 @@ $(function(){
 <li>矢野　博之「富士山はいつ、どこから噴火するのか」</li>
 <li>冨田　大貴「帯磁率異方性からみた花崗岩マグマの流動」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2015" class="date">H27年度（2015）</h3>
 <p class="shu">修士論文</p>
 <ul class="list">
@@ -247,7 +225,7 @@ $(function(){
 <li>東川　健太「浅間ジオパーク構想のジオサイトの映像制作」</li>
 <li>平野　琢也「東伊豆単成火山伊雄山溶岩について」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2014" class="date">H26年度（2014）</h3>
 <p class="sotu">卒業論文</p>
 <ul class="list">
@@ -261,7 +239,7 @@ $(function(){
 <li>松永　康志「阿蘇火山中央火口丘杵島岳火山の地質と形成史」</li>
 <li>松尾　裕太「長野県飯田市弁天橋白亜紀生田花崗岩中の同時性苦鉄質岩床の地質と岩石」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2013" class="date">H25年度（2013）</h3>
 <p class="shu">修士論文</p>
 <ul class="list">
@@ -286,7 +264,7 @@ $(function(){
 <li>三塚　俊輔「岩手県久慈地域に分布する上部白亜系久慈層群の層序」</li>
 <li>澤本世絵羅「手取層群より産出したコプロライト」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <div class="sp_off">
 <h3 id="jamp2012" class="date">H24年度（2012）</h3>
 <p class="shu">修士論文</p>
@@ -306,7 +284,7 @@ $(function(){
 <li>斎藤麻衣子「箱根ジオパーク大涌谷コースのジオサイトと火山防災」</li>
 <li>田中　絵里「箱根ジオパーク須雲川コースジオサイトの地質とガイドマップ」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2011" class="date">H23年度（2011）</h3>
 <p class="sotu">卒業論文</p>
 <ul class="list">
@@ -322,7 +300,7 @@ $(function(){
 <li>岩崎　真大「箱根金時火山の内部構造と火山角礫岩の成因について」</li>
 <li>三上　創史「箱根外輪山北部金時山・明星ヶ岳における凝灰角礫岩の成因」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2010" class="date">H22年度（2010）</h3>
 <p class="shu">修士論文</p>
 <ul class="list">
@@ -339,7 +317,7 @@ $(function(){
 <li>永田　沙織「浅間火山小諸火砕流堆積物　本質岩片の見かけ密度」</li>
 <li>西尾　光　「桜島火山大正溶岩集合斑晶の鉱物学的研究」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2009" class="date">H21年度（2009）</h3>
 <p class="sotu">卒業論文</p>
 <ul class="list">
@@ -355,7 +333,7 @@ $(function(){
 <li>間瀬口輝浩「富士火山青木ヶ原玄武岩質溶岩流における溶岩の表面形態」</li>
 <li>磯貝　裕介「富士火山青木ヶ原溶岩における「スパイラクル」構造の再検討」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2008" class="date">H20年度（2008）</h3>
 <p class="shu">修士論文</p>
 <ul class="list">
@@ -372,7 +350,7 @@ $(function(){
 <li>中村　有希「浅間前掛火山上舞台溶岩の古地磁気学的研究」</li>
 <li>南雲　旭　「那須茶臼岳火山の噴出物と地質」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2007" class="date">H19年度（2007）</h3>
 <p class="shu">修士論文</p>
 <ul class="list">
@@ -389,7 +367,7 @@ $(function(){
 <li>萩原　秀美「溶岩ドーム中の破片状斜長石と噴出様式の関係：榛名火山二ツ岳、霧島火 山硫黄山、箱根火山二子山を例にして」</li>
 <li>山崎　一樹「富士火山かんす山単成火山噴出物の岩石学的研究」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2006" class="date">H18年度（2006）</h3>
 <p class="shu">修士論文</p>
 <ul class="list">
@@ -405,7 +383,7 @@ $(function(){
 <li>白石　哲朗「桜島火山黒神観測井ボーリングコアの岩石学的研究2　－みかけ密度と全岩化学組成－」</li>
 <li>神田　勇希「伊豆大島火山・貞享・元禄溶岩の岩石化学的研究」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2005" class="date">H17年度（2005）</h3>
 <p class="shu">修士論文</p>
 <ul class="list">
@@ -417,7 +395,7 @@ $(function(){
 <li>菅沼　千早「霧島火山硫黄山溶岩の地質学的・岩石学的研究」</li>
 <li>近藤　淳　「富士青木ヶ原溶岩集合斑晶の記載岩石学」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2004" class="date">H16年度（2004）</h3>
 <p class="shu">修士論文</p>
 <ul class="list">
@@ -436,7 +414,7 @@ $(function(){
 <li>横田　美里「桜島火山の安永噴火（1779）を新島観測井のボーリングコアをもとに鉱物組成から考察する」</li>
 <li>三浦　恭子「浅間火山･鬼押出溶岩に見られる岩石学的特徴」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2003" class="date">H15年度（2003）</h3>
 <p class="shu">修士論文</p>
 <ul class="list">
@@ -451,7 +429,7 @@ $(function(){
 <li>御園生裕介「伊豆大島火山1777-1779年安永噴火のパホイホイ溶岩丘について」</li>
 <li>林田　啓資「伊豆大島火山1777-1779年安永噴火噴出物の全岩化学組成」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2002" class="date">H14年度（2002）</h3>
 <p class="shu">修士論文</p>
 <ul class="list">
@@ -470,7 +448,7 @@ $(function(){
 <li>太塚　長資「斑レイ岩質岩片の岩石組織-富士火山・1707年宝永噴火の斑レイ岩質岩片を例として-」</li>
 <li>斉藤　陽子「東伊豆単成火山群における岩ノ山ｰ伊雄山火山列の岩石学的研究」</li>
 </ul>
-
+<p class="more sp_on">もっと見る</p>
 <h3 id="jamp2001" class="date">H13年度（2001）</h3>
 <p class="shu">修士論文</p>
 <ul class="list">
@@ -484,6 +462,7 @@ $(function(){
 <li>永井　匡　「富士火山須走口六合～八合目の地質に関する研究」</li>
 <li>平野　公平「新潟焼山と日光火山群の苦鉄質包有岩について」</li>
 </ul>
+<p class="more sp_on">もっと見る</p>
 </div>
 </div><!--/.soturonList-->
 </div><!--/#wrapper-->
