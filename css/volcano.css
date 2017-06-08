@@ -6,11 +6,11 @@ p.logo{
 }
 /* -------------------- layout -------------------- */
 main {
-  height: 800px;
+  height: 1000px;
   overflow:  hidden;
 }
 #contents {
-  width: 256px;
+  width: 300px;
 /*  background: #ccc;*/
   float: left;
 }
@@ -42,19 +42,32 @@ li.this {
 }
 
 /* -------------------- contents -------------------- */
+#contents li a{
+	color: #000;
+}
+#contents li a:hover {
+	color: #999;
+}
 
-#contents ul.kazanList li {
-  box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 1px 1px;
-  -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 1px 1px;
-  -moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 1px 1px;
-  margin: 0 3px 10px;
+#contents li {
+/*  box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 1px 1px;*/
+/*  -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 1px 1px;*/
+/*  -moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 1px 1px;*/
+  padding : 2px 3px 2	px;
+	font-size: 0.8;
+	color: #8c653e;
+	border-bottom: 1px dashed #999;
 }
-ol.asamaContents li{
+#contents ol.asamaContents li{
   font-size: 15px;
-  line-height: 1.8;
+  line-height: 1.5	;
+	padding-left: 1.0em	;
+	list-style: disc;
 }
-li.titleOnly a:hover {
+/*
+li.titleOnly a :hover {
   background: #8c653e;
+*/
 }
 
 /* -------------------- .right -------------------- */

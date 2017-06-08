@@ -18,7 +18,8 @@ main {
 }
 
 #wrapperPlus {
-	background: url(../labo/img/labo_backimg.png) no-repeat center bottom/contain;
+/*	background: url(../labo/img/labo_backimg.png) no-repeat center bottom/contain;*/
+		background: url(../labo/img/labo_backimg.png) no-repeat center 3px;
 	height: 250px;
 }
 
