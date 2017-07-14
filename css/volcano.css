@@ -6,11 +6,10 @@ p.logo{
 }
 /* -------------------- layout -------------------- */
 main {
-  height: 1000px;
   overflow:  hidden;
 }
 #contents {
-  width: 300px;
+  width: 28%;
 /*  background: #ccc;*/
   float: left;
 }
@@ -19,7 +18,7 @@ main {
   margin: 0 auto;
   overflow: hidden;
   margin-bottom: 40px;
-  padding-top: 30px;
+  padding: 20px;
 }
 main {
 }
@@ -33,6 +32,13 @@ li.this {
 }
 .asama00 {
   margin-bottom: 70px;
+}
+#kazan_asama {
+	width: 70%;
+	float: right;
+}
+.cf {
+  clear: both;
 }
 /* -------------------- takahashineko -------------------- */
 #mate p{
@@ -63,7 +69,6 @@ li.this {
 }
 
 /* -------------------- .right -------------------- */
-
 h1 {
   font-size: 24px;
   margin-bottom: 0.25em;
@@ -72,8 +77,8 @@ h1 {
 }
 h2 {
   font-size: 22px;
-  margin-bottom: 0.25em;
-  padding-top:0.5em;
+  margin: 0 0 0.5em 0;
+	padding-top: 1.0em;
 }
 h3 {
   font-size: 18px;
@@ -170,4 +175,34 @@ p.tume {
 .honbunGreen {
   color: #396;
   font-weight: bold;
+}
+#kazan_asama img{
+	margin: 10px 0;
+}
+p.w100p {
+	width: 100%;
+}
+p.w50p {
+	width: 50%;
+}
+p.w49p {
+	width: 49%;
+}
+p.w30p {
+	width: 30%;
+}
+p.w65p {
+	width: 65%;
+}
+p.right {
+	float: right;
+}
+p.left {
+	float: left;
+}
+p.mr3p {
+	margin-right: 3%;
+}
+p.mb5 {
+	margin-bottom: 5px;
 }
