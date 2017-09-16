@@ -257,7 +257,7 @@ li.aramakiVolcano {
 	float: right;
 }
 .box1, .box2 {
-	width: 70%;
+	width: 90%;
 	float: none;
   margin: 0 auto 70px;
 }
@@ -277,16 +277,14 @@ background:#D7C19B;
 	height: 240px;
   background:#D7C19B url(../img/laboMain.svg) no-repeat center/contain;
 }
-#wrapper {
-	padding: 50px 20px 0;
+#wrapper.aramaki-wrapper {
+	padding: 50px 12px 0;
 	overflow: hidden;
 	background:#D7C19B;
 }
 .about p {
 font-size: 14px;
 }
-
-
 
 .left1 {
 	width: 100%;
@@ -297,6 +295,81 @@ font-size: 14px;
 	margin-bottom: 30px;
 	float: none;
 }
+
+/* -------------------- 荒牧先生ページ -------------------- */
+
+.aramaki {
+	margin-bottom: 30px;
+}
+
+dl.aramakiHistory {
+	margin-bottom: 30px;
+}
+
+dl.aramakiHistory dt,
+dl.aramakiHistory dd {
+	line-height: 1.5;
+}
+
+dl.aramakiHistory dt {
+	float:none;
+}
+
+dl.aramakiHistory dd {
+	margin-left: 1em;
+  margin-bottom: 10px;
+}
+
+dl.aramakiHistory p {
+	line-height: 1.5;
+}
+
+ul.aramakiList {
+	padding-left: 1.0em;
+	list-style: square;
+	margin-bottom: 30px;
+}
+
+ul.aramakiList li {
+	line-height: 1.5;
+}
+
+li.aramakiVolcano {
+	padding-left: 1.0em;
+	list-style: none;
+}
+
+
+ul.aramaki-booklist {
+margin-bottom: 20px;
+}
+
+ul.aramaki-booklist li:nth-child(n + 6) {
+display: none;
+}
+
+p.aramaki-txt {
+margin-bottom: 10px;
+}
+p.aramaki-more {
+width: 60%;
+line-height: 50px;
+text-align: center;
+border:  3px solid #542c0b;
+border-radius: 8px;
+margin:  10px auto 40px;
+}
+
+.aramaki-to-labo span {
+display:  inline-block;
+width: 10px;
+height: 10px;
+border-right: 2px solid #542c0b;
+border-bottom: 2px solid #542c0b;
+transform: rotate(-45deg);
+margin-right: 14px;
+}
+
 
 }
 
