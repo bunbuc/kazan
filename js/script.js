@@ -15,7 +15,7 @@ if($(window).innerWidth() > 1019){
  $('#hum').removeClass('click');//PCから戻る時に邪魔な.clickを削除するため
  } 
 });
-
+});
 
 
 //スムーススクロール
@@ -48,10 +48,11 @@ $(function(){
 
 
 //温泉ページのアコーディオンメニュー
+$(function(){
 $(window).on('load resize',function(){
   if($(window).innerWidth() <= 640){
 $('ul.outer').css('display','none');
-$('#onsenAll h2').on('touchstart',function(){
+$('#onsenAll h2').on('touchend',function(){
       if($(this).siblings('ul').css('display')=='none'){
       $('ul.outer').slideUp(200);
       $(this).siblings('ul.outer').slideDown(200);
@@ -67,7 +68,7 @@ $('#onsenAll h2').on('touchstart',function(){
 });
 
 
-$('li.more').on('click',function(){
+$('li.more').on('touchend',function(){
   if($(window).innerWidth() <= 640){
       $(this).siblings('li:nth-child(n+4)').slideToggle(0);
   };
@@ -81,7 +82,7 @@ $('li.more').on('click',function(){
             };
   });
 
-$('li.show').on('click',function(){
+$('li.show').on('touchend',function(){
   if($(window).innerWidth() <= 640){
       $(this).siblings('li:nth-child(n+2)').slideToggle(0);
   };
@@ -94,9 +95,12 @@ $('li.show').on('click',function(){
             flg = "close"
             };
   });
+});
+
 
 
 //高校生ページのアコーディオン
+$(function(){
 $('p.more').on('click',function(){
  if($(window).innerWidth() <= 640){
      $(this).prev('ul').children('li:nth-child(n+4)').slideToggle(0);
@@ -109,11 +113,5 @@ $('p.more').on('click',function(){
      }
  };
 });
-
-
-  
-
-
-
 
 });

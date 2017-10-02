@@ -234,6 +234,12 @@ display: none;
 	line-height: 1.5;
 }
 
+
+.onsen_info ul li.show {
+display: none;
+}
+
+
 /*レスポンシブ*/
 @media screen and (max-width:1019px) {
 /* -------------------- layout -------------------- */
