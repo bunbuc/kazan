@@ -216,7 +216,13 @@ p.mb5 {
 
 /*レスポンシブ*/
 @media screen and (max-width:767px) {
-
+.wrapper {
+  max-width:960px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 40px;
+  padding: 10px;
+}
 
 #contents {
   width: 100%;
@@ -249,9 +255,32 @@ padding: 16px 0 16px 0;
 	width: 100%;
 	float: none;
 }
+
+h1.kazan-title {
+float: none;
+width: 100%;
+margin: 0;
+font-size: 22px;
+}
+
+#kazan_sakura h2 {
+font-size: 18px;
+margin-bottom: 20px;
+}
+#kazan_sakura h3 {
+font-size: 20px;
+}
+
 #kazan_sakura p {
 font-size: 14px;
 }
+
+.kazan-literature {
+font-size: 13px;
+line-height: 1.3;
+}
+
+
 
 }
 
