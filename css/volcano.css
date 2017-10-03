@@ -14,7 +14,7 @@ main {
   float: left;
 }
 .wrapper {
-  width:960px;
+  max-width:960px;
   margin: 0 auto;
   overflow: hidden;
   margin-bottom: 40px;
@@ -48,19 +48,25 @@ li.this {
 }
 
 /* -------------------- contents -------------------- */
+
+#contents li {
+  padding : 2px 3px 2px;
+	font-size: 0.8;
+	border-bottom: 1px dashed #999;
+}
+
 #contents li a{
-	color: #000;
+display: block;
+color: #8c653e;
 }
 #contents li a:hover {
 	color: #999;
 }
-
-#contents li {
-  padding : 2px 3px 2	px;
-	font-size: 0.8;
-	color: #8c653e;
-	border-bottom: 1px dashed #999;
+#contents li.current a {
+color: #000;
 }
+
+
 #contents ol.asamaContents li{
   font-size: 15px;
   line-height: 1.5	;
@@ -206,3 +212,49 @@ p.mr3p {
 p.mb5 {
 	margin-bottom: 5px;
 }
+
+
+/*レスポンシブ*/
+@media screen and (max-width:767px) {
+
+
+#contents {
+  width: 100%;
+  float: none;
+  margin-bottom: 40px;
+}
+
+#contents ul {
+overflow: hidden;
+}
+#contents li {
+  width: 23%;
+  margin: 0 1%;
+  height: 80px;
+  padding : 2px 3px 2px;
+  box-sizing: border-box;
+  line-height: 1.3;
+	font-size: 13px;
+	color: #8c653e;
+	border-bottom: 1px dashed #999;
+  float: left;
+}
+#contents li a{
+display: block;
+box-sizing: border-box;
+padding: 16px 0 16px 0;
+}
+
+#kazan_sakura {
+	width: 100%;
+	float: none;
+}
+#kazan_sakura p {
+font-size: 14px;
+}
+
+}
+
+
+
+
