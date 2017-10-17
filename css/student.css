@@ -172,6 +172,10 @@ table.jampList td {
 p#jamp2014 {
   clear: left;
 }
+p.nishioPhoto {
+  text-align: center;
+	margin: 2em 0;
+}
 
 
 /*レスポンシブ                                                              */
@@ -366,6 +370,4 @@ border: 1px solid #000000;
 width: 200px;
 margin: 30px auto;
 }
-
-
 }
