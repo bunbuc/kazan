@@ -239,6 +239,11 @@ display: none;
 display: none;
 }
 
+p.sensitu img {
+	width: 428px;
+	margin-right: 0;
+	margin-bottom: 10px;
+}
 
 /*レスポンシブ*/
 @media screen and (max-width:1019px) {
