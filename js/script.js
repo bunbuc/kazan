@@ -86,7 +86,6 @@ $('li.show').on('touchend',function(){
   if($(window).innerWidth() <= 640){
       $(this).siblings('li:nth-child(n+2)').slideToggle(0);
   };
-  
   if(flg == "close"){
             $(this).text('閉じる');
             flg = "open";
