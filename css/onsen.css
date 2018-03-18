@@ -756,9 +756,9 @@ display: block;
 display: none;
 }
 
-#onsenHitou li.kobetu:nth-child(n+2),#onsenBangai li.kobetu:nth-child(n+2) {
+/*#onsenHitou li.kobetu:nth-child(n+2),#onsenBangai li.kobetu:nth-child(n+2) {
 display: none;
-}
+}*/
 .onsen_info ul li:first-child {
 margin-top: 10px;
 }
